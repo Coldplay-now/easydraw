@@ -46,6 +46,7 @@ Thumbs.db
 # 临时文件
 .tmp/
 .temp/
+temp/
 
 # 覆盖率报告
 coverage/
