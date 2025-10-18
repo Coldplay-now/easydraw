@@ -1,0 +1,284 @@
+{
+  "story_title": "孙悟空拉斯维加斯奇遇记",
+  "cover": {
+    "title_text": "齐天大圣闯赌城",
+    "title_style": "金色渐变艺术字体，带有霓虹灯效果，融合中式书法与现代设计",
+    "visual_description": "拉斯维加斯夜景背景，霓虹灯闪烁的赌场大道，孙悟空身穿现代西装但保留金箍棒，站在巨大的赌场标志前，一手持金箍棒，一手拿着扑克牌，表情自信而调皮",
+    "main_character": "孙悟空穿着时尚西装，但保留标志性的金箍和毛茸茸的外表，姿态潇洒自信，眼神机智狡黠",
+    "key_elements": "金箍棒、扑克牌、老虎机、霓虹灯、赌场筹码、拉斯维加斯地标建筑",
+    "style_notes": "现代都市风格与传统神话元素融合，明亮的霓虹色彩与金色神话光芒对比",
+    "color_scheme": "霓虹蓝、粉红、金黄、深紫夜空",
+    "composition": "孙悟空居中偏右，标题位于上方，背景展现拉斯维加斯繁华夜景"
+  },
+  "total_panels": 10,
+  "total_frames": 28,
+  "total_images": 11,
+  "panels": [
+    {
+      "panel_number": 1,
+      "layout_type": "3格布局",
+      "layout_description": "引入孙悟空接到出差任务的背景",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "花果山水帘洞，孙悟空正在打坐修炼，突然手机响起",
+          "dialogue": "咦？这什么玩意儿一直在响？",
+          "sound_effects": "叮铃铃～",
+          "style_notes": "传统山水画风格，但有现代手机的突兀感"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "孙悟空拿起手机，表情困惑地看着屏幕",
+          "dialogue": "喂？什么？让俺老孙去美国出差？",
+          "sound_effects": "嘟嘟嘟",
+          "style_notes": "特写镜头，强调孙悟空的困惑表情"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "孙悟空兴奋地跳起来，金箍棒在手",
+          "dialogue": "拉斯维加斯？听起来很有趣！俺老孙去也！",
+          "sound_effects": "嗖！",
+          "style_notes": "动态线条表现兴奋的动作"
+        }
+      ]
+    },
+    {
+      "panel_number": 2,
+      "layout_type": "2格布局",
+      "layout_description": "孙悟空初到拉斯维加斯的震撼",
+      "frames": [
+        {
+          "frame_number": 4,
+          "visual_description": "孙悟空从筋斗云上降落到拉斯维加斯大道，周围霓虹灯闪烁，游客惊讶地看着他",
+          "dialogue": "哇！这里比天宫还要亮堂！",
+          "sound_effects": "嗡嗡嗡（霓虹灯声）",
+          "style_notes": "广角镜头展现拉斯维加斯的繁华景象"
+        },
+        {
+          "frame_number": 5,
+          "visual_description": "路人纷纷拿出手机拍照，以为是街头表演",
+          "dialogue": "路人：哇！这cosplay太逼真了！",
+          "sound_effects": "咔嚓咔嚓（拍照声）",
+          "style_notes": "多角度展现围观群众的反应"
+        }
+      ]
+    },
+    {
+      "panel_number": 3,
+      "layout_type": "4格布局",
+      "layout_description": "孙悟空进入赌场的初体验",
+      "frames": [
+        {
+          "frame_number": 6,
+          "visual_description": "孙悟空走进豪华赌场大厅，被金碧辉煌的装饰震撼",
+          "dialogue": "这龙宫也不过如此啊！",
+          "sound_effects": "叮叮当当（老虎机声）",
+          "style_notes": "仰视角度强调赌场的宏伟"
+        },
+        {
+          "frame_number": 7,
+          "visual_description": "保安拦住孙悟空，指着他的金箍棒",
+          "dialogue": "保安：先生，武器不能带进赌场",
+          "sound_effects": "",
+          "style_notes": "对峙的紧张气氛"
+        },
+        {
+          "frame_number": 8,
+          "visual_description": "孙悟空挠头，把金箍棒变小塞进耳朵",
+          "dialogue": "这样行了吧？",
+          "sound_effects": "嗖～（变小声）",
+          "style_notes": "魔法变化的视觉效果"
+        },
+        {
+          "frame_number": 9,
+          "visual_description": "保安目瞪口呆，孙悟空得意地走进赌场",
+          "dialogue": "保安：这...这是魔术吗？",
+          "sound_effects": "",
+          "style_notes": "喜剧效果的夸张表情"
+        }
+      ]
+    },
+    {
+      "panel_number": 4,
+      "layout_type": "3格布局",
+      "layout_description": "孙悟空初试老虎机",
+      "frames": [
+        {
+          "frame_number": 10,
+          "visual_description": "孙悟空站在老虎机前，好奇地研究机器",
+          "dialogue": "这铁盒子怎么玩？投币？",
+          "sound_effects": "嗡嗡嗡",
+          "style_notes": "特写孙悟空专注研究的表情"
+        },
+        {
+          "frame_number": 11,
+          "visual_description": "孙悟空用力拉动拉杆，力气太大差点把机器拉坏",
+          "dialogue": "咦？怎么这么脆弱？",
+          "sound_effects": "咔嚓！嘎吱！",
+          "style_notes": "夸张的力量表现，机器摇摇欲坠"
+        },
+        {
+          "frame_number": 12,
+          "visual_description": "老虎机显示大奖，金币哗啦啦掉出来",
+          "dialogue": "哈哈！俺老孙果然是天选之子！",
+          "sound_effects": "叮叮当当！哗啦啦！",
+          "style_notes": "金光闪闪的中奖效果"
+        }
+      ]
+    },
+    {
+      "panel_number": 5,
+      "layout_type": "2格布局",
+      "layout_description": "孙悟空在扑克桌上的表现",
+      "frames": [
+        {
+          "frame_number": 13,
+          "visual_description": "孙悟空坐在德州扑克桌前，对面是几个专业赌徒，他拿着扑克牌一脸认真",
+          "dialogue": "这纸片游戏看起来很有趣！",
+          "sound_effects": "洗牌声",
+          "style_notes": "紧张的赌桌氛围，聚光灯效果"
+        },
+        {
+          "frame_number": 14,
+          "visual_description": "孙悟空用火眼金睛看穿对手的底牌，眼中冒出金光",
+          "dialogue": "嘿嘿，俺老孙的火眼金睛可不是摆设！",
+          "sound_effects": "嗖嗖（金光声）",
+          "style_notes": "特殊能力的视觉表现，金色光芒"
+        }
+      ]
+    },
+    {
+      "panel_number": 6,
+      "layout_type": "4格布局",
+      "layout_description": "孙悟空被怀疑作弊的小插曲",
+      "frames": [
+        {
+          "frame_number": 15,
+          "visual_description": "赌场经理带着保安过来，表情严肃",
+          "dialogue": "经理：先生，我们怀疑您作弊",
+          "sound_effects": "",
+          "style_notes": "紧张对峙的气氛"
+        },
+        {
+          "frame_number": 16,
+          "visual_description": "孙悟空无辜地摊手",
+          "dialogue": "作弊？俺老孙从不作弊，全凭本事！",
+          "sound_effects": "",
+          "style_notes": "无辜的表情和手势"
+        },
+        {
+          "frame_number": 17,
+          "visual_description": "经理检查孙悟空身上，没发现任何作弊工具",
+          "dialogue": "经理：确实没有作弊工具...",
+          "sound_effects": "",
+          "style_notes": "搜查的细节动作"
+        },
+        {
+          "frame_number": 18,
+          "visual_description": "孙悟空得意地继续游戏",
+          "dialogue": "那当然！俺老孙靠的是真本事！",
+          "sound_effects": "",
+          "style_notes": "得意洋洋的表情"
+        }
+      ]
+    },
+    {
+      "panel_number": 7,
+      "layout_type": "3格布局",
+      "layout_description": "孙悟空遇到魔术表演",
+      "frames": [
+        {
+          "frame_number": 19,
+          "visual_description": "孙悟空在赌场剧院看魔术表演，魔术师正在表演消失术",
+          "dialogue": "咦？这人类也会七十二变？",
+          "sound_effects": "哗！（观众惊叹）",
+          "style_notes": "剧院的舞台灯光效果"
+        },
+        {
+          "frame_number": 20,
+          "visual_description": "孙悟空跳上舞台，要和魔术师比试",
+          "dialogue": "俺老孙也来露一手！",
+          "sound_effects": "哗啦！",
+          "style_notes": "突然的动作，观众震惊"
+        },
+        {
+          "frame_number": 21,
+          "visual_description": "孙悟空变出72个分身围绕舞台，观众目瞪口呆",
+          "dialogue": "这才叫真正的魔术！",
+          "sound_effects": "嗖嗖嗖！",
+          "style_notes": "壮观的分身术视觉效果"
+        }
+      ]
+    },
+    {
+      "panel_number": 8,
+      "layout_type": "2格布局",
+      "layout_description": "孙悟空成为拉斯维加斯新明星",
+      "frames": [
+        {
+          "frame_number": 22,
+          "visual_description": "第二天，孙悟空的照片登上了拉斯维加斯的各大报纸头条",
+          "dialogue": "报纸标题：神秘东方魔术师震撼赌城！",
+          "sound_effects": "",
+          "style_notes": "报纸版面设计，多个角度的照片"
+        },
+        {
+          "frame_number": 23,
+          "visual_description": "各大赌场老板排队邀请孙悟空表演",
+          "dialogue": "老板们：请来我们赌场表演吧！",
+          "sound_effects": "",
+          "style_notes": "商业洽谈的场景"
+        }
+      ]
+    },
+    {
+      "panel_number": 9,
+      "layout_type": "3格布局",
+      "layout_description": "孙悟空的拉斯维加斯生活",
+      "frames": [
+        {
+          "frame_number": 24,
+          "visual_description": "孙悟空住进豪华酒店套房，躺在巨大的床上",
+          "dialogue": "这比花果山舒服多了！",
+          "sound_effects": "",
+          "style_notes": "奢华的酒店装饰"
+        },
+        {
+          "frame_number": 25,
+          "visual_description": "孙悟空在酒店餐厅品尝各种美食",
+          "dialogue": "人间的蟠桃宴也不过如此！",
+          "sound_effects": "咀嚼声",
+          "style_notes": "丰盛的自助餐场景"
+        },
+        {
+          "frame_number": 26,
+          "visual_description": "孙悟空在游泳池边晒太阳，戴着墨镜",
+          "dialogue": "这才是神仙该过的日子！",
+          "sound_effects": "水声",
+          "style_notes": "度假休闲的氛围"
+        }
+      ]
+    },
+    {
+      "panel_number": 10,
+      "layout_type": "2格布局",
+      "layout_description": "孙悟空的归程和感悟",
+      "frames": [
+        {
+          "frame_number": 27,
+          "visual_description": "一周后，孙悟空站在拉斯维加斯机场，准备回花果山，手里拿着一大袋奖金",
+          "dialogue": "是时候回家了，不过这趟出差真是太有趣了！",
+          "sound_effects": "飞机起飞声",
+          "style_notes": "离别的不舍和满足"
+        },
+        {
+          "frame_number": 28,
+          "visual_description": "孙悟空骑着筋斗云飞过拉斯维加斯夜空，回望闪烁的城市灯光",
+          "dialogue": "下次有机会，俺老孙还要再来！",
+          "sound_effects": "呼呼风声",
+          "style_notes": "温馨的结尾，城市夜景作为背景"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "story_title": "猪八戒的拉斯维加斯爱情故事",
+  "cover": {
+    "title_text": "天蓬元帅的异国恋",
+    "title_style": "玫瑰金渐变艺术字体，带有心形装饰和柔和光晕，浪漫而温馨的设计风格",
+    "visual_description": "拉斯维加斯黄昏背景，猪八戒身穿优雅的深蓝色西装，与一位金发碧眼的美丽白人女子手牵手站在喷泉前，两人深情对视，周围飘洒着玫瑰花瓣和温柔的灯光",
+    "main_character": "猪八戒穿着得体的西装，表情温柔深情，眼神中充满爱意和真诚，与女主角形成美好的画面",
+    "key_elements": "玫瑰花、喷泉、牵手、深情对视、拉斯维加斯地标、浪漫灯光、心形装饰",
+    "style_notes": "浪漫温馨的风格，柔和的色彩搭配，突出跨文化爱情的美好和纯真",
+    "color_scheme": "玫瑰金、温柔粉色、深蓝、暖黄灯光",
+    "composition": "情侣居中，标题位于上方，背景展现拉斯维加斯的浪漫夜景"
+  },
+  "total_panels": 10,
+  "total_frames": 28,
+  "total_images": 11,
+  "panels": [
+    {
+      "panel_number": 1,
+      "layout_type": "3格布局",
+      "layout_description": "引入猪八戒接到拉斯维加斯任务的背景",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "高老庄，猪八戒正在照镜子整理仪容，表情有些忧郁",
+          "dialogue": "唉，俺老猪什么时候才能找到真爱呢？",
+          "sound_effects": "叹气声",
+          "style_notes": "温馨的农家场景，突出猪八戒对爱情的渴望"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "唐僧打电话给猪八戒，告诉他去拉斯维加斯的任务",
+          "dialogue": "师父：八戒，去拉斯维加斯参加文化交流活动吧",
+          "sound_effects": "电话铃声",
+          "style_notes": "正式的任务交代场景"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "猪八戒眼睛一亮，想象着可能遇到的美好爱情",
+          "dialogue": "也许...也许俺老猪的缘分就在那里等着呢！",
+          "sound_effects": "心跳声",
+          "style_notes": "充满希望的表情，眼中有小星星"
+        }
+      ]
+    },
+    {
+      "panel_number": 2,
+      "layout_type": "2格布局",
+      "layout_description": "猪八戒初到拉斯维加斯，命运的邂逅开始",
+      "frames": [
+        {
+          "frame_number": 4,
+          "visual_description": "猪八戒从云端降落到拉斯维加斯大道，被繁华的景象震撼",
+          "dialogue": "哇！这里真是灯火辉煌，充满了浪漫的气息！",
+          "sound_effects": "嗡嗡嗡（霓虹灯声）",
+          "style_notes": "广角镜头展现拉斯维加斯的浪漫夜景"
+        },
+        {
+          "frame_number": 5,
+          "visual_description": "猪八戒走路时不小心撞到一位金发美女，两人四目相对",
+          "dialogue": "对不起！Are you okay?",
+          "sound_effects": "碰撞声",
+          "style_notes": "经典的浪漫邂逅场面，时间仿佛静止"
+        }
+      ]
+    },
+    {
+      "panel_number": 3,
+      "layout_type": "4格布局",
+      "layout_description": "初次相遇后的尴尬和温馨",
+      "frames": [
+        {
+          "frame_number": 6,
+          "visual_description": "美女名叫艾米丽，是赌场的公关经理，她温柔地笑着",
+          "dialogue": "艾米丽：I'm Emily. You're quite... unique!",
+          "sound_effects": "",
+          "style_notes": "温柔的笑容，友善的眼神"
+        },
+        {
+          "frame_number": 7,
+          "visual_description": "猪八戒紧张地挠头，脸红了",
+          "dialogue": "俺...俺叫猪八戒，从中国来的...",
+          "sound_effects": "心跳声",
+          "style_notes": "害羞紧张的表情，可爱的反差"
+        },
+        {
+          "frame_number": 8,
+          "visual_description": "艾米丽主动邀请猪八戒喝咖啡",
+          "dialogue": "艾米丽：Would you like to have coffee with me?",
+          "sound_effects": "",
+          "style_notes": "主动友善的姿态"
+        },
+        {
+          "frame_number": 9,
+          "visual_description": "猪八戒激动得差点跳起来",
+          "dialogue": "真的吗？俺老猪...不，我很乐意！",
+          "sound_effects": "兴奋的心跳声",
+          "style_notes": "努力表现绅士但掩饰不住兴奋"
+        }
+      ]
+    },
+    {
+      "panel_number": 4,
+      "layout_type": "3格布局",
+      "layout_description": "第一次约会的甜蜜时光",
+      "frames": [
+        {
+          "frame_number": 10,
+          "visual_description": "两人坐在咖啡厅里，艾米丽好奇地听猪八戒讲中国的故事",
+          "dialogue": "艾米丽：Tell me about China, it sounds fascinating!",
+          "sound_effects": "轻柔的背景音乐",
+          "style_notes": "温馨的咖啡厅氛围，两人专注交流"
+        },
+        {
+          "frame_number": 11,
+          "visual_description": "猪八戒兴奋地比手画脚讲述西游记的故事",
+          "dialogue": "俺们师徒四人去西天取经，路上遇到了很多妖怪...",
+          "sound_effects": "",
+          "style_notes": "生动的讲述姿态，艾米丽听得入迷"
+        },
+        {
+          "frame_number": 12,
+          "visual_description": "艾米丽被逗笑了，猪八戒看着她的笑容也开心地笑了",
+          "dialogue": "艾米丽：You're so funny and sweet!",
+          "sound_effects": "愉快的笑声",
+          "style_notes": "两人都很开心，气氛融洽"
+        }
+      ]
+    },
+    {
+      "panel_number": 5,
+      "layout_type": "2格布局",
+      "layout_description": "文化差异带来的小插曲",
+      "frames": [
+        {
+          "frame_number": 13,
+          "visual_description": "艾米丽带猪八戒参观拉斯维加斯的景点，两人在埃菲尔铁塔复制品前合影",
+          "dialogue": "艾米丽：This is our Eiffel Tower!",
+          "sound_effects": "咔嚓（拍照声）",
+          "style_notes": "旅游观光的愉快场景"
+        },
+        {
+          "frame_number": 14,
+          "visual_description": "猪八戒困惑地看着各种西式食物，艾米丽耐心地介绍",
+          "dialogue": "猪八戒：这些都是什么？看起来好奇怪...",
+          "sound_effects": "",
+          "style_notes": "文化差异的可爱表现"
+        }
+      ]
+    },
+    {
+      "panel_number": 6,
+      "layout_type": "4格布局",
+      "layout_description": "感情逐渐升温的浪漫时刻",
+      "frames": [
+        {
+          "frame_number": 15,
+          "visual_description": "夜晚，两人在拉斯维加斯大道上漫步，霓虹灯映照着他们的身影",
+          "dialogue": "艾米丽：I've never met anyone like you...",
+          "sound_effects": "轻柔的夜风声",
+          "style_notes": "浪漫的夜景，温馨的氛围"
+        },
+        {
+          "frame_number": 16,
+          "visual_description": "猪八戒鼓起勇气牵起艾米丽的手",
+          "dialogue": "俺也是...从没遇到过像你这样的女孩",
+          "sound_effects": "心跳声",
+          "style_notes": "紧张而甜蜜的牵手瞬间"
+        },
+        {
+          "frame_number": 17,
+          "visual_description": "艾米丽没有拒绝，两人深情对视",
+          "dialogue": "艾米丽：Maybe we're meant to meet...",
+          "sound_effects": "",
+          "style_notes": "深情的眼神交流"
+        },
+        {
+          "frame_number": 18,
+          "visual_description": "两人在喷泉前拥抱，周围的灯光如梦如幻",
+          "dialogue": "（无对话，只有拥抱）",
+          "sound_effects": "喷泉水声，浪漫音乐",
+          "style_notes": "经典的浪漫拥抱场面"
+        }
+      ]
+    },
+    {
+      "panel_number": 7,
+      "layout_type": "3格布局",
+      "layout_description": "面临分离的痛苦和挣扎",
+      "frames": [
+        {
+          "frame_number": 19,
+          "visual_description": "猪八戒接到唐僧的电话，必须回去继续取经之路",
+          "dialogue": "师父：八戒，任务完成了，该回来了",
+          "sound_effects": "电话铃声",
+          "style_notes": "突然的现实打击，表情从幸福转为痛苦"
+        },
+        {
+          "frame_number": 20,
+          "visual_description": "猪八戒看着艾米丽，眼中充满不舍",
+          "dialogue": "艾米丽...俺必须回去了...",
+          "sound_effects": "",
+          "style_notes": "痛苦的表情，不舍的眼神"
+        },
+        {
+          "frame_number": 21,
+          "visual_description": "艾米丽虽然难过但理解，温柔地抚摸猪八戒的脸",
+          "dialogue": "艾米丽：I understand... but I'll miss you so much",
+          "sound_effects": "轻柔的叹息声",
+          "style_notes": "理解但不舍的温柔表情"
+        }
+      ]
+    },
+    {
+      "panel_number": 8,
+      "layout_type": "2格布局",
+      "layout_description": "爱情的承诺和约定",
+      "frames": [
+        {
+          "frame_number": 22,
+          "visual_description": "两人在机场拥抱告别，周围的人都被感动",
+          "dialogue": "猪八戒：俺一定会回来找你的！",
+          "sound_effects": "飞机起飞声",
+          "style_notes": "深情的告别拥抱，感人的场面"
+        },
+        {
+          "frame_number": 23,
+          "visual_description": "艾米丽给猪八戒一个护身符，猪八戒给她一朵永不凋谢的仙花",
+          "dialogue": "艾米丽：This will keep you safe. 猪八戒：这花会永远提醒你俺的爱",
+          "sound_effects": "",
+          "style_notes": "交换信物的浪漫时刻"
+        }
+      ]
+    },
+    {
+      "panel_number": 9,
+      "layout_type": "3格布局",
+      "layout_description": "跨越时空的思念",
+      "frames": [
+        {
+          "frame_number": 24,
+          "visual_description": "猪八戒回到高老庄，但经常望着天空思念艾米丽",
+          "dialogue": "不知道艾米丽现在在做什么...",
+          "sound_effects": "风声",
+          "style_notes": "思念的忧郁表情，望向远方"
+        },
+        {
+          "frame_number": 25,
+          "visual_description": "艾米丽在拉斯维加斯的办公室里，看着猪八戒的照片",
+          "dialogue": "艾米丽：I hope he's doing well...",
+          "sound_effects": "",
+          "style_notes": "同样思念的表情，办公桌上的合影"
+        },
+        {
+          "frame_number": 26,
+          "visual_description": "两人同时看着同一片星空，心有灵犀",
+          "dialogue": "（心声）我们一定会再见面的...",
+          "sound_effects": "夜风声",
+          "style_notes": "分屏画面，同样的星空，相同的思念"
+        }
+      ]
+    },
+    {
+      "panel_number": 10,
+      "layout_type": "2格布局",
+      "layout_description": "爱情的重逢和永恒",
+      "frames": [
+        {
+          "frame_number": 27,
+          "visual_description": "一年后，取经结束，猪八戒迫不及待地飞回拉斯维加斯",
+          "dialogue": "艾米丽，俺回来了！",
+          "sound_effects": "呼呼风声",
+          "style_notes": "急切飞行的动态效果，满怀期待"
+        },
+        {
+          "frame_number": 28,
+          "visual_description": "艾米丽在同一个喷泉前等待，两人重逢拥抱，周围洒满玫瑰花瓣",
+          "dialogue": "艾米丽：I knew you'd come back! 猪八戒：俺说过会回来的！",
+          "sound_effects": "喷泉声，浪漫音乐",
+          "style_notes": "完美的重逢场面，玫瑰花瓣飞舞，爱情的胜利"
+        }
+      ]
+    }
+  ]
+}

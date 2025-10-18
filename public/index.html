@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,24 +10,66 @@
     <div class="container">
         <img src="/assets/hero-image.png" alt="美国风格漫画生成器" class="hero-image">
         <h1>美国风格漫画生成器</h1>
+        
+        <!-- 模式选择 -->
         <div class="form-group">
-            <label for="prompt">输入提示词：</label>
-            <textarea id="prompt" name="prompt" rows="4" placeholder="例如：一个穿着宇航服的猫，正在月球上行走"></textarea>
+            <label>生成模式：</label>
+            <div class="radio-group">
+                <label class="radio-label">
+                    <input type="radio" name="mode" value="single" checked>
+                    单图生成
+                </label>
+                <label class="radio-label">
+                    <input type="radio" name="mode" value="batch">
+                    JSON脚本批量生成
+                </label>
+            </div>
         </div>
+
+        <!-- 单图生成模式 -->
+        <div id="single-mode" class="mode-section">
+            <div class="form-group">
+                <label for="prompt">输入提示词：</label>
+                <textarea id="prompt" name="prompt" rows="4" placeholder="例如：一个穿着宇航服的猫，正在月球上行走"></textarea>
+            </div>
+        </div>
+
+        <!-- JSON批量生成模式 -->
+        <div id="batch-mode" class="mode-section" style="display: none;">
+            <div class="form-group">
+                <label for="json-file">选择JSON脚本文件：</label>
+                <input type="file" id="json-file" accept=".json" style="display: none;">
+                <button type="button" id="file-select-btn" class="file-btn">选择文件</button>
+                <span id="file-name" class="file-name">未选择文件</span>
+                <div id="panel-count-info" class="panel-count-info" style="display: none; margin-top: 8px; color: #666; font-size: 14px;"></div>
+            </div>
+            <div class="form-group">
+                <label>生成进度：</label>
+                <div id="progress-container" style="display: none;">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+                    <div id="progress-text">0/0</div>
+                </div>
+            </div>
+        </div>
+
         <div class="form-group">
             <label>图片尺寸：</label>
             <div class="radio-group">
                 <label class="radio-label">
                     <input type="radio" name="size" value="2560x1440" checked>
-                    16:9 (2560x1440)
+                    横版 (2560x1440)
                 </label>
                 <label class="radio-label">
                     <input type="radio" name="size" value="1440x2560">
-                    9:16 (1440x2560)
+                    竖版 (1440x2560)
                 </label>
             </div>
         </div>
+
         <button id="generate-btn">生成图片</button>
+        
         <div id="image-container">
             <div class="loader"></div>
         </div>

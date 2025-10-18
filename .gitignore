@@ -54,3 +54,6 @@ coverage/
 # 构建输出
 dist/
 build/
+
+# 漫画智能体提示词文件（禁止提交）
+comic_agent_prompt.md

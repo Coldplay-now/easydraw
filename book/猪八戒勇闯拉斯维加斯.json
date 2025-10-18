@@ -1,0 +1,277 @@
+{
+  "story_title": "猪八戒勇闯拉斯维加斯",
+  "cover": {
+    "title_text": "天蓬元帅闯赌城",
+    "title_style": "粉红色渐变艺术字体，带有闪亮特效，融合可爱与霸气的设计风格",
+    "visual_description": "拉斯维加斯夜景背景，猪八戒身穿粉色西装，一手拿着巨大的汉堡，一手抱着一堆筹码，站在豪华赌场门前，周围有美女和美食的剪影，表情既贪婪又兴奋",
+    "main_character": "猪八戒穿着时尚的粉色西装，保留大耳朵和猪鼻子特征，表情憨厚可爱但眼神中透露着狡黠",
+    "key_elements": "九齿钉耙（变小装饰）、汉堡、筹码、美女剪影、霓虹灯、自助餐厅标志",
+    "style_notes": "可爱卡通风格与现代都市元素结合，色彩鲜艳温暖，突出猪八戒的憨厚可爱",
+    "color_scheme": "粉红、金黄、橙红、温暖的霓虹色彩",
+    "composition": "猪八戒居中，标题位于上方，背景展现拉斯维加斯的美食和娱乐元素"
+  },
+  "total_panels": 10,
+  "total_frames": 26,
+  "total_images": 11,
+  "panels": [
+    {
+      "panel_number": 1,
+      "layout_type": "3格布局",
+      "layout_description": "引入猪八戒接到拉斯维加斯任务的背景",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "高老庄，猪八戒正在大吃特吃，桌上摆满各种食物",
+          "dialogue": "嗯～这红烧肉真香！再来十碗米饭！",
+          "sound_effects": "咀嚼声，咕噜咕噜",
+          "style_notes": "温馨的农家场景，强调猪八戒的食量"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "唐僧打电话给猪八戒，猪八戒嘴里塞满食物接电话",
+          "dialogue": "师父？什么？去拉斯维加斯？那里有好吃的吗？",
+          "sound_effects": "电话铃声，含糊不清的说话声",
+          "style_notes": "搞笑的对比，嘴里塞满食物说话"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "猪八戒兴奋地跳起来，食物洒了一地",
+          "dialogue": "听说那里有世界上最大的自助餐！俺老猪去也！",
+          "sound_effects": "哗啦啦（食物掉落声）",
+          "style_notes": "夸张的兴奋动作，食物飞溅的动态效果"
+        }
+      ]
+    },
+    {
+      "panel_number": 2,
+      "layout_type": "2格布局",
+      "layout_description": "猪八戒初到拉斯维加斯的震撼",
+      "frames": [
+        {
+          "frame_number": 4,
+          "visual_description": "猪八戒从云端降落到拉斯维加斯大道，被满街的美食广告牌震撼",
+          "dialogue": "哇！到处都是吃的广告！这里就是天堂啊！",
+          "sound_effects": "嗡嗡嗡（霓虹灯声），咕噜（肚子叫声）",
+          "style_notes": "广角镜头展现满街的美食诱惑"
+        },
+        {
+          "frame_number": 5,
+          "visual_description": "路人看到猪八戒，以为是吉祥物，纷纷要求合影",
+          "dialogue": "路人：哇！这个猪猪吉祥物好可爱！",
+          "sound_effects": "咔嚓咔嚓（拍照声）",
+          "style_notes": "温馨搞笑的误会场面"
+        }
+      ]
+    },
+    {
+      "panel_number": 3,
+      "layout_type": "4格布局",
+      "layout_description": "猪八戒发现自助餐厅的狂欢",
+      "frames": [
+        {
+          "frame_number": 6,
+          "visual_description": "猪八戒走进豪华赌场的自助餐厅，眼睛发光看着琳琅满目的美食",
+          "dialogue": "这...这就是传说中的自助餐？",
+          "sound_effects": "咕噜咕噜（肚子叫得更响）",
+          "style_notes": "仰视角度强调自助餐的丰盛"
+        },
+        {
+          "frame_number": 7,
+          "visual_description": "服务员介绍自助餐规则，猪八戒根本没在听，眼睛盯着食物",
+          "dialogue": "服务员：先生，这里是按时间收费的自助餐...",
+          "sound_effects": "",
+          "style_notes": "猪八戒专注食物的痴迷表情"
+        },
+        {
+          "frame_number": 8,
+          "visual_description": "猪八戒付钱后冲向食物区",
+          "dialogue": "多少钱都行！俺老猪要开吃了！",
+          "sound_effects": "嗖！（冲刺声）",
+          "style_notes": "速度线表现急切的动作"
+        },
+        {
+          "frame_number": 9,
+          "visual_description": "猪八戒端着十几个盘子，堆得像小山一样",
+          "dialogue": "先来点开胃菜...",
+          "sound_effects": "叮叮当当（盘子碰撞声）",
+          "style_notes": "夸张的食物堆积效果"
+        }
+      ]
+    },
+    {
+      "panel_number": 4,
+      "layout_type": "3格布局",
+      "layout_description": "猪八戒的惊人食量震撼全场",
+      "frames": [
+        {
+          "frame_number": 10,
+          "visual_description": "猪八戒狼吞虎咽，周围其他客人目瞪口呆地看着他",
+          "dialogue": "嗯～好吃！再来一轮！",
+          "sound_effects": "咀嚼声，吞咽声",
+          "style_notes": "对比其他客人的震惊表情"
+        },
+        {
+          "frame_number": 11,
+          "visual_description": "餐厅经理紧张地看着食物快速减少",
+          "dialogue": "经理：这位客人的食量...我们的成本...",
+          "sound_effects": "计算器按键声",
+          "style_notes": "经理焦虑的表情和动作"
+        },
+        {
+          "frame_number": 12,
+          "visual_description": "猪八戒已经吃了三个小时，肚子圆滚滚的，但还在继续",
+          "dialogue": "还有甜点区没试过呢！",
+          "sound_effects": "打嗝声",
+          "style_notes": "夸张的圆肚子效果"
+        }
+      ]
+    },
+    {
+      "panel_number": 5,
+      "layout_type": "2格布局",
+      "layout_description": "猪八戒被邀请参加大胃王比赛",
+      "frames": [
+        {
+          "frame_number": 13,
+          "visual_description": "赌场老板亲自来找猪八戒，邀请他参加大胃王比赛",
+          "dialogue": "老板：先生，我们想邀请您参加明天的大胃王挑战赛！",
+          "sound_effects": "",
+          "style_notes": "商业洽谈的正式场景"
+        },
+        {
+          "frame_number": 14,
+          "visual_description": "猪八戒兴奋地答应，眼中冒出金光",
+          "dialogue": "比赛？还有奖金？俺老猪最喜欢挑战了！",
+          "sound_effects": "叮！（金光效果音）",
+          "style_notes": "兴奋的表情和金钱符号特效"
+        }
+      ]
+    },
+    {
+      "panel_number": 6,
+      "layout_type": "4格布局",
+      "layout_description": "大胃王比赛现场的激烈竞争",
+      "frames": [
+        {
+          "frame_number": 15,
+          "visual_description": "比赛现场，猪八戒和其他大胃王选手坐成一排，面前摆着巨大的汉堡",
+          "dialogue": "主持人：欢迎参加拉斯维加斯大胃王挑战赛！",
+          "sound_effects": "观众欢呼声",
+          "style_notes": "竞技场的紧张氛围"
+        },
+        {
+          "frame_number": 16,
+          "visual_description": "比赛开始，其他选手还在慢慢吃，猪八戒已经消灭了三个汉堡",
+          "dialogue": "这就是传说中的汉堡？还挺好吃的！",
+          "sound_effects": "咀嚼声，观众惊叹声",
+          "style_notes": "速度对比的视觉效果"
+        },
+        {
+          "frame_number": 17,
+          "visual_description": "其他选手开始放弃，猪八戒还在继续吃",
+          "dialogue": "选手：我...我不行了...",
+          "sound_effects": "倒下声",
+          "style_notes": "戏剧性的对比场面"
+        },
+        {
+          "frame_number": 18,
+          "visual_description": "猪八戒轻松获胜，举起奖杯",
+          "dialogue": "这就结束了？俺老猪还没吃饱呢！",
+          "sound_effects": "观众雷鸣般的掌声",
+          "style_notes": "胜利的光荣时刻"
+        }
+      ]
+    },
+    {
+      "panel_number": 7,
+      "layout_type": "3格布局",
+      "layout_description": "猪八戒遇到拉斯维加斯的美女表演",
+      "frames": [
+        {
+          "frame_number": 19,
+          "visual_description": "猪八戒在赌场剧院看歌舞表演，眼睛变成心形",
+          "dialogue": "哇！这些仙女比嫦娥还漂亮！",
+          "sound_effects": "音乐声，心跳声",
+          "style_notes": "浪漫的舞台灯光效果"
+        },
+        {
+          "frame_number": 20,
+          "visual_description": "猪八戒想上台献花，被保安拦住",
+          "dialogue": "保安：先生，请回到座位！",
+          "sound_effects": "",
+          "style_notes": "搞笑的被拦截场面"
+        },
+        {
+          "frame_number": 21,
+          "visual_description": "猪八戒失落地回到座位，但很快又被食物吸引",
+          "dialogue": "算了，还是先去吃夜宵吧...",
+          "sound_effects": "叹气声",
+          "style_notes": "情绪转换的可爱表现"
+        }
+      ]
+    },
+    {
+      "panel_number": 8,
+      "layout_type": "2格布局",
+      "layout_description": "猪八戒成为拉斯维加斯美食界传奇",
+      "frames": [
+        {
+          "frame_number": 22,
+          "visual_description": "第二天，猪八戒的照片登上美食杂志封面",
+          "dialogue": "杂志标题：神秘东方大胃王征服拉斯维加斯！",
+          "sound_effects": "",
+          "style_notes": "杂志封面设计，多角度的精彩照片"
+        },
+        {
+          "frame_number": 23,
+          "visual_description": "各大餐厅老板排队邀请猪八戒代言",
+          "dialogue": "老板们：请为我们餐厅代言吧！",
+          "sound_effects": "",
+          "style_notes": "商业成功的热闹场面"
+        }
+      ]
+    },
+    {
+      "panel_number": 9,
+      "layout_type": "3格布局",
+      "layout_description": "猪八戒享受拉斯维加斯的奢华生活",
+      "frames": [
+        {
+          "frame_number": 24,
+          "visual_description": "猪八戒住进总统套房，房间里摆满了各种美食",
+          "dialogue": "这才是神仙该过的日子！",
+          "sound_effects": "",
+          "style_notes": "奢华的酒店装饰和丰盛的美食"
+        },
+        {
+          "frame_number": 25,
+          "visual_description": "猪八戒在游泳池边享受日光浴，旁边放着饮料和小食",
+          "dialogue": "晒太阳也要配点心！",
+          "sound_effects": "水声，鸟叫声",
+          "style_notes": "悠闲惬意的度假氛围"
+        },
+        {
+          "frame_number": 26,
+          "visual_description": "一周后，猪八戒恋恋不舍地准备离开，手里拿着一大袋美食纪念品",
+          "dialogue": "虽然舍不得，但高老庄的媳妇还在等俺呢！",
+          "sound_effects": "飞机起飞声",
+          "style_notes": "温馨的离别场面，满载而归的满足感"
+        }
+      ]
+    },
+    {
+      "panel_number": 10,
+      "layout_type": "1格布局",
+      "layout_description": "温馨的结尾画面",
+      "frames": [
+        {
+          "frame_number": 27,
+          "visual_description": "猪八戒骑着云朵飞过拉斯维加斯夜空，回望闪烁的城市灯光，怀里抱着美食纪念品和奖杯",
+          "dialogue": "拉斯维加斯，俺老猪还会再来的！下次要带媳妇一起来！",
+          "sound_effects": "呼呼风声，远处的音乐声",
+          "style_notes": "温馨浪漫的结尾，城市夜景作为背景，突出猪八戒的满足和期待"
+        }
+      ]
+    }
+  ]
+}
