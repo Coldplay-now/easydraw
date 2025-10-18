@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #333;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 600px;
+    max-width: 90%;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+    color: #555;
+}
+
+textarea, select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: vertical;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: border-color 0.3s;
+}
+
+textarea:focus, select:focus {
+    outline: none;
+    border-color: #6a11cb;
+}
+
+button {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+#image-container {
+    margin-top: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+#image-container img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-image {
+    display: block;
+    margin: 0 auto 1.5rem;
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #6a11cb;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    display: none; /* Hidden by default */
+    z-index: 10;
+}
+
+.loader::after {
+    content: "生成中...";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-weight: bold;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* 单选按钮组样式 */
+.radio-group {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.radio-label:hover {
+    border-color: #6a11cb;
+    background-color: rgba(106, 17, 203, 0.1);
+}
+
+.radio-label input[type="radio"] {
+    margin-right: 0.5rem;
+    accent-color: #6a11cb;
+}
+
+.radio-label input[type="radio"]:checked + span {
+    font-weight: bold;
+}
+
+.radio-label:has(input[type="radio"]:checked) {
+    border-color: #6a11cb;
+    background-color: rgba(106, 17, 203, 0.1);
+    box-shadow: 0 0 0 2px rgba(106, 17, 203, 0.2);
+}

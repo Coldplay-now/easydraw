@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美国风格漫画生成器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="/assets/hero-image.png" alt="美国风格漫画生成器" class="hero-image">
+        <h1>美国风格漫画生成器</h1>
+        <div class="form-group">
+            <label for="prompt">输入提示词：</label>
+            <textarea id="prompt" name="prompt" rows="4" placeholder="例如：一个穿着宇航服的猫，正在月球上行走"></textarea>
+        </div>
+        <div class="form-group">
+            <label>图片尺寸：</label>
+            <div class="radio-group">
+                <label class="radio-label">
+                    <input type="radio" name="size" value="2560x1440" checked>
+                    16:9 (2560x1440)
+                </label>
+                <label class="radio-label">
+                    <input type="radio" name="size" value="1440x2560">
+                    9:16 (1440x2560)
+                </label>
+            </div>
+        </div>
+        <button id="generate-btn">生成图片</button>
+        <div id="image-container">
+            <div class="loader"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
