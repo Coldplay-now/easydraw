@@ -8,7 +8,7 @@
 
 一个基于豆包AI Seedream 4.0模型的现代化美式漫画风格图片生成器，支持多种图片尺寸选择，提供简洁易用的Web界面。
 
-![项目预览](/public/assets/hero-image.png)
+![项目交互界面](/public/assets/20251018-175453.jpeg)
 
 ## 功能特性
 
