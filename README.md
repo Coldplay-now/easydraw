@@ -1,11 +1,12 @@
-# 美国风格漫画生成器
+# 🎨 EasyDraw - 美式漫画生成器
 
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Node.js](https://img.shields.io/badge/Node.js-18.x-green.svg)
-![Express](https://img.shields.io/badge/Express-4.x-lightgrey.svg)
-![豆包AI](https://img.shields.io/badge/豆包AI-Seedream4.0-orange.svg)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Node.js](https://img.shields.io/badge/Node.js-18.x-green.svg)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Express-4.x-lightgrey.svg)](https://expressjs.com/)
+[![豆包AI](https://img.shields.io/badge/豆包AI-Seedream4.0-orange.svg)](https://www.doubao.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-Coldplay--now/easydraw-brightgreen.svg)](https://github.com/Coldplay-now/easydraw)
 
-一个基于豆包AI Seedream 4.0模型的美式漫画风格图片生成器，支持多种图片尺寸选择。
+一个基于豆包AI Seedream 4.0模型的现代化美式漫画风格图片生成器，支持多种图片尺寸选择，提供简洁易用的Web界面。
 
 ![项目预览](/public/assets/hero-image.png)
 
@@ -37,8 +38,8 @@
 
 1. 克隆项目
 ```bash
-git clone <项目地址>
-cd 1018_doubao
+git clone git@github.com:Coldplay-now/easydraw.git
+cd easydraw
 ```
 
 2. 安装依赖
@@ -71,22 +72,24 @@ npm start
 4. 等待图片生成完成
 5. 查看生成的图片结果
 
-## 项目结构
+## 📁 项目结构
 
 ```
-1018_doubao/
-├── public/           # 前端静态文件
-│   ├── index.html    # 主页面
-│   ├── style.css     # 样式文件
-│   ├── script.js     # 前端逻辑
-│   └── assets/       # 静态资源
-├── images/           # 生成的图片存储目录
-├── server.js         # Express服务器
-├── system_prompt.md  # AI系统提示词
+easydraw/
+├── public/           # 静态资源文件
+│   ├── assets/       # 图片等资源
+│   └── styles/       # CSS样式文件
+├── routes/           # 路由文件
+│   └── api.js        # API路由
+├── utils/            # 工具函数
+│   └── doubao.js     # 豆包AI接口封装
 ├── .env.example      # 环境变量示例
 ├── .gitignore        # Git忽略文件
-├── package.json      # 项目配置
-└── README.md         # 项目说明
+├── app.js            # Express应用主文件
+├── package.json      # 项目依赖配置
+├── README.md         # 项目说明文档
+├── system_prompt.md  # AI系统提示词
+└── LICENSE           # MIT许可证文件
 ```
 
 ## API接口
