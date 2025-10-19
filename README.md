@@ -10,16 +10,22 @@
 ## 📸 项目展示
 
 ### 主界面 - 图片生成器
-![图片生成器主界面](public/assets/1.jpeg)
+<img src="public/assets/1.jpeg" alt="图片生成器主界面" width="50%">
 
 ### 分镜头脚本生成器
-![分镜头脚本生成器界面](public/assets/2.jpeg)
+<img src="public/assets/2.jpeg" alt="分镜头脚本生成器界面" width="50%">
 
 ### 批量生成与进度显示
-![批量生成功能](public/assets/3.jpeg)
+<img src="public/assets/3.jpeg" alt="批量生成功能" width="50%">
 
 ### 生成结果展示
-![生成结果展示](public/assets/4.jpeg)
+<img src="public/assets/4.jpeg" alt="生成结果展示" width="50%">
+
+### 漫画风格展示
+<img src="public/assets/5.jpeg" alt="漫画风格展示" width="50%">
+
+### 创作流程演示
+<img src="public/assets/6.png" alt="创作流程演示" width="50%">
 
 ## ✨ 功能特性
 
