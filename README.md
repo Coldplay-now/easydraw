@@ -183,7 +183,6 @@ easydraw/
 ├── .env.example            # 环境变量示例
 ├── .gitignore              # Git忽略文件
 ├── server.js               # Express服务器主文件
-├── images_to_pdf.py        # Python PDF处理脚本
 ├── package.json            # 项目依赖配置
 ├── system_prompt.md        # 主要AI系统提示词
 └── README.md               # 项目说明文档

@@ -19,6 +19,7 @@ pids
 
 # 生成的文件和目录
 temp/                    # 临时生成的图片文件
+book/                    # 书籍/漫画数据文件（禁止提交）
 
 # 日志文件
 logs
@@ -58,7 +59,6 @@ comic_agent_prompt.md
 
 # 太空漫画脚本文件（禁止提交）
 space_comic_script.md
-book/space_comic_script.md
 
 # 测试文件（禁止提交）
 public/test-download.html
