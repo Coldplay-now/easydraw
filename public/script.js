@@ -76,6 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
     generateBtn.addEventListener('click', async () => {
         const mode = document.querySelector('input[name="mode"]:checked').value;
         const size = document.querySelector('input[name="size"]:checked').value;
+        const style = document.getElementById('style-select').value;
 
         if (mode === 'single') {
             const prompt = promptTextarea.value;
@@ -83,18 +84,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 alert('请输入提示词！');
                 return;
             }
-            await generateSingleImage(prompt, size);
+            await generateSingleImage(prompt, size, style);
         } else {
             if (!selectedJsonFile) {
                 alert('请选择JSON脚本文件！');
                 return;
             }
-            await generateBatchImages(selectedJsonFile, size);
+            await generateBatchImages(selectedJsonFile, size, style);
         }
     });
 
     // 单图生成
-    async function generateSingleImage(prompt, size) {
+    async function generateSingleImage(prompt, size, style) {
         // 使用统一的加载状态
         setButtonLoadingState(true, { text: '生成中' });
 
@@ -104,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ prompt, size }),
+                body: JSON.stringify({ prompt, size, style }),
             });
 
             if (!response.ok) {
@@ -182,7 +183,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // 带重试功能的图片生成函数
-    async function generateImageWithRetry(prompt, size, sessionId, isCover = false, panelNumber = null, maxRetries = 3) {
+    async function generateImageWithRetry(prompt, size, sessionId, isCover = false, panelNumber = null, maxRetries = 3, style = 'comic_american') {
         for (let attempt = 1; attempt <= maxRetries; attempt++) {
             try {
                 const response = await fetch('/generate-batch-image', {
@@ -194,7 +195,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         prompt: prompt,
                         size: size,
                         sessionId: sessionId,
-                        iscover: isCover
+                        iscover: isCover,
+                        style: style
                     })
                 });
 
@@ -298,7 +300,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (errorElement) errorElement.textContent = errorCount;
     }
 
-    async function generateBatchImages(jsonFile, size) {
+    async function generateBatchImages(jsonFile, size, style) {
         try {
             const jsonContent = await readFileAsText(jsonFile);
             const comicData = JSON.parse(jsonContent);
@@ -351,7 +353,10 @@ document.addEventListener('DOMContentLoaded', () => {
                         coverPrompt, 
                         size, 
                         sessionId, 
-                        true
+                        true,
+                        null,
+                        3,
+                        style
                     );
                     
                     const result = {
@@ -431,7 +436,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         size, 
                         sessionId, 
                         false, 
-                        panel.panel_number
+                        panel.panel_number,
+                        3,
+                        style
                     );
                     
                     const result = {

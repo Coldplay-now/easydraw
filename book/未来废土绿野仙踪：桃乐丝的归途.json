@@ -1,0 +1,270 @@
+{
+  "story_title": "未来废土绿野仙踪：桃乐丝的归途",
+  "cover": {
+    "title_text": "未来废土绿野仙踪",
+    "title_style": "霓虹灯故障艺术字体，带有数字噪点和像素化效果，荧光绿色调",
+    "visual_description": "赛博朋克风格的废土世界，桃乐丝身穿改装防护服站在荒芜的公路中央，身后是倒塌的摩天大楼和全息投影的彩虹，机械托托犬陪伴在侧，空中悬浮着故障的全息龙卷风",
+    "main_character": "桃乐丝：年轻女性，穿着拼凑的防护装备，戴着防尘护目镜，手持发光手杖，表情坚定而迷茫",
+    "key_elements": "故障的全息龙卷风、机械托托犬、发光手杖、倒塌的现代建筑、霓虹灯残骸、全息彩虹投影",
+    "style_notes": "赛博朋克废土美学，高对比度的霓虹色调，数字故障艺术效果，混合机械与有机元素",
+    "color_scheme": "荧光绿、深紫色、橙红色、金属灰、电子蓝",
+    "composition": "桃乐丝位于画面中心，目光望向远方，龙卷风在背景中形成视觉焦点，标题以故障字体悬浮在上方"
+  },
+  "total_panels": 10,
+  "total_frames": 24,
+  "total_images": 11,
+  "panels": [
+    {
+      "panel_number": 1,
+      "layout_type": "3格布局",
+      "layout_description": "引入主角和废土世界背景",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "广角镜头：未来废土世界，倒塌的摩天大楼，空中漂浮的全息广告残影，地面覆盖着电子垃圾",
+          "dialogue": "系统日志：纪元2187，大崩塌后第53年...",
+          "sound_effects": "风声呼啸，电子杂音",
+          "style_notes": "末世氛围，冷色调，大量细节表现荒凉感"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "特写：桃乐丝从废墟中醒来，防尘面罩上反射着故障的全息投影",
+          "dialogue": "我...这是在哪里？堪萨斯呢？",
+          "sound_effects": "心跳声，电子嗡鸣",
+          "style_notes": "人物特写，面部表情迷茫，环境光效"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "机械托托犬（改装机器狗）靠近桃乐丝，眼睛发出蓝色光芒",
+          "dialogue": "汪汪！（机械音）检测到生命体征，主人苏醒",
+          "sound_effects": "机械运转声，电子吠叫",
+          "style_notes": "机械细节特写，蓝光效果"
+        }
+      ]
+    },
+    {
+      "panel_number": 2,
+      "layout_type": "2格布局",
+      "layout_description": "遭遇故障全息龙卷风",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "远处出现巨大的全息龙卷风，由故障的数据流和闪电组成，吞噬着废墟",
+          "dialogue": "警告！高能量风暴接近！",
+          "sound_effects": "数据流呼啸，雷电爆裂",
+          "style_notes": "大场面，动态效果，色彩对比强烈"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "桃乐丝紧抱托托犬，龙卷风将她们卷起，周围是飞舞的电子零件",
+          "dialogue": "托托，抓紧我！",
+          "sound_effects": "风暴呼啸，金属碰撞",
+          "style_notes": "动态模糊，旋转构图"
+        }
+      ]
+    },
+    {
+      "panel_number": 3,
+      "layout_type": "4格布局",
+      "layout_description": "降临奥兹国废墟与遇见格琳达",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "桃乐丝和托托犬降落在色彩斑斓但破败的奥兹国废墟，空中漂浮着故障的全息投影",
+          "dialogue": "这里...是奥兹国？但一切都不同了...",
+          "sound_effects": "落地撞击，电子火花",
+          "style_notes": "色彩对比，破败中的美丽"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "全息投影的格琳达出现，形象闪烁不稳定",
+          "dialogue": "旅行者，你是被龙卷风选中的...",
+          "sound_effects": "全息投影嗡鸣，数据流",
+          "style_notes": "半透明效果，光影变化"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "格琳达指向远方的霓虹灯道路",
+          "dialogue": "沿着虹光大道前进，寻找三位守护者...",
+          "sound_effects": "指引音效，环境音",
+          "style_notes": "指向性构图，引导视线"
+        },
+        {
+          "frame_number": 4,
+          "visual_description": "桃乐丝坚定点头，托托犬发出确认光效",
+          "dialogue": "我要回家！无论这条路有多艰难",
+          "sound_effects": "决心音效，机械确认声",
+          "style_notes": "人物决心表情特写"
+        }
+      ]
+    },
+    {
+      "panel_number": 4,
+      "layout_type": "3格布局",
+      "layout_description": "遇见机械稻草人",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "废弃的数据中心，机械稻草人卡在服务器机架中，头部是显示器面孔",
+          "dialogue": "我需要一个大脑...我的处理器过热了...",
+          "sound_effects": "风扇噪音，过热警报",
+          "style_notes": "机械细节，故障效果"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "桃乐丝帮稻草人重新连接数据线，托托犬提供冷却",
+          "dialogue": "也许你需要的是知识，而不是更强的处理器",
+          "sound_effects": "数据连接，冷却液流动",
+          "style_notes": "帮助动作，技术感"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "稻草人恢复正常，显示器显示感谢表情",
+          "dialogue": "谢谢！我现在感觉...更聪明了！",
+          "sound_effects": "系统正常音，开心音效",
+          "style_notes": "恢复正常，表情变化"
+        }
+      ]
+    },
+    {
+      "panel_number": 5,
+      "layout_type": "3格布局",
+      "layout_description": "遇见生化锡人",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "生锈的锡人卡在废弃油罐中，关节锈蚀无法移动",
+          "dialogue": "我的关节...都生锈了...需要润滑油...",
+          "sound_effects": "金属摩擦，痛苦呻吟",
+          "style_notes": "金属质感，锈蚀效果"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "桃乐丝找到废弃机油，托托犬用激光切割开油罐",
+          "dialogue": "真正的勇气不是没有恐惧，而是面对恐惧",
+          "sound_effects": "激光切割，机油流动",
+          "style_notes": "动作场景，光影效果"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "锡人恢复活动，做出勇敢姿势",
+          "dialogue": "我感觉...充满勇气！",
+          "sound_effects": "关节活动，自信音效",
+          "style_notes": "动态姿势，金属反光"
+        }
+      ]
+    },
+    {
+      "panel_number": 6,
+      "layout_type": "2格布局",
+      "layout_description": "遇见仿生狮子",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "巨大的仿生狮子躲在废墟后，虽然是机械但表现得很胆小",
+          "dialogue": "我...我很害怕...外面的世界太危险...",
+          "sound_effects": "机械颤抖，害怕音效",
+          "style_notes": "对比构图，强大外表的脆弱"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "桃乐丝鼓励狮子，托托犬展示勇敢行为",
+          "dialogue": "心有猛虎，细嗅蔷薇。你的力量就在心中",
+          "sound_effects": "鼓励音效，勇气增长",
+          "style_notes": "情感交流，表情特写"
+        }
+      ]
+    },
+    {
+      "panel_number": 7,
+      "layout_type": "2格布局",
+      "layout_description": "团队集结前往翡翠城",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "四人团队在虹光大道上前进，背景是遥远的翡翠城（发光的高科技城市）",
+          "dialogue": "一起前进吧！为了各自的愿望！",
+          "sound_effects": "行进节奏，环境音",
+          "style_notes": "团队构图，远景透视"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "特写：四人坚定的表情特写拼贴",
+          "dialogue": "回家/智慧/勇气/力量！",
+          "sound_effects": "决心和弦，团队主题",
+          "style_notes": "表情拼贴，象征性"
+        }
+      ]
+    },
+    {
+      "panel_number": 8,
+      "layout_type": "3格布局",
+      "layout_description": "面对西方坏女巫的机械军团",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "西方坏女巫（赛博格形态）率领机械飞猴军团拦截",
+          "dialogue": "留下那双发光的鞋子！它们是我的能量源！",
+          "sound_effects": "机械军团行进，威胁音效",
+          "style_notes": "反派登场，压迫感构图"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "团队合作对抗：稻草人用数据攻击，锡人物理防御，狮子冲锋",
+          "dialogue": "为了奥兹国！为了回家！",
+          "sound_effects": "战斗音效，技能释放",
+          "style_notes": "战斗动态，团队配合"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "桃乐丝用鞋子能量制造水幕，融化女巫（机械怕水）",
+          "dialogue": "真正的力量来自内心，不是掠夺！",
+          "sound_effects": "能量释放，融化效果",
+          "style_notes": "能量特效，高潮时刻"
+        }
+      ]
+    },
+    {
+      "panel_number": 9,
+      "layout_type": "2格布局",
+      "layout_description": "真相揭晓与选择",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "奥兹（全息投影老人）揭示真相：龙卷风是时空传送装置",
+          "dialogue": "你一直都有回家的力量...在鞋子里...",
+          "sound_effects": "真相揭示，神秘音效",
+          "style_notes": "真相时刻，光影变化"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "桃乐丝沉思，看着同伴和回家的选项",
+          "dialogue": "但这里的大家...也需要我...",
+          "sound_effects": "沉思音乐，情感波动",
+          "style_notes": "内心挣扎，情感特写"
+        }
+      ]
+    },
+    {
+      "panel_number": 10,
+      "layout_type": "2格布局",
+      "layout_description": "最终决定与新时代开启",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "桃乐丝选择留下，用鞋子能量修复奥兹国，新时代开启",
+          "dialogue": "有时候，家不是地方，是心之所向",
+          "sound_effects": "能量释放，重建音效",
+          "style_notes": "希望之光，重建景象"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "全景：新奥兹国繁荣景象，桃乐丝和朋友们站在高处眺望",
+          "dialogue": "这里就是我的新家...我们的新开始！",
+          "sound_effects": "希望主题，新时代音乐",
+          "style_notes": "大结局，全景展示"
+        }
+      ]
+    }
+  ]
+}

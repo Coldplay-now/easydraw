@@ -1,0 +1,249 @@
+{
+  "story_title": "绿野仙踪之回到未来",
+  "cover": {
+    "title_text": "绿野仙踪之回到未来",
+    "title_style": "军事风格粗体字体，带有数字迷彩纹理和荧光橙色轮廓，未来科技感",
+    "visual_description": "未来废土战场背景，桃乐丝身穿迷彩战术装备站在废墟顶端，手持发光导航仪，护目镜反射着远处的全息彩虹，机械托托犬警戒地蹲在一旁，空中悬浮着数据风暴",
+    "main_character": "桃乐丝：年少勇敢的女孩，迷彩战术服，半长发，军用护目镜推至额头，战术背心，短裤护膝，军靴，手持高科技导航设备，表情坚定",
+    "key_elements": "战术护目镜、迷彩装备、发光导航仪、机械托托犬、全息彩虹、数据风暴、未来废墟",
+    "style_notes": "军事废土风格，硬朗线条，战术装备细节，荧光色点缀，保持人物形象一致性",
+    "color_scheme": "数码迷彩绿、战术黑、荧光橙、金属灰、数据蓝",
+    "composition": "桃乐丝位于画面中心偏右，目光坚毅望向远方，导航仪发光指引方向，全息彩虹形成视觉引导线"
+  },
+  "total_panels": 10,
+  "total_frames": 23,
+  "total_images": 11,
+  "panels": [
+    {
+      "panel_number": 1,
+      "layout_type": "3格布局",
+      "layout_description": "未来战场中的桃乐丝与机械托托犬",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "广角：未来战场废墟，无人机残骸，烧毁的坦克，空中漂浮着数据流",
+          "dialogue": "时空异常警告：坐标2187，战区Omega",
+          "sound_effects": "电子警报，远处爆炸声",
+          "style_notes": "大场景建立，冷色调，战争痕迹"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "中景：桃乐丝从掩体后探头，护目镜显示战术数据，迷彩服沾满灰尘",
+          "dialogue": "托托，扫描完成了吗？找到回家的信号源！",
+          "sound_effects": "设备扫描音，环境风声",
+          "style_notes": "人物引入，装备细节特写"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "特写：机械托托犬（军用侦察机器人）眼睛发出蓝光，显示全息地图",
+          "dialogue": "汪汪！（机械音）检测到异常能量波动，疑似时空裂缝",
+          "sound_effects": "机械运转，数据传输",
+          "style_notes": "机械细节，科技感"
+        }
+      ]
+    },
+    {
+      "panel_number": 2,
+      "layout_type": "2格布局",
+      "layout_description": "遭遇数据风暴与传送",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "巨大的数据风暴席卷战场，由代码和闪电组成，吞噬一切",
+          "dialogue": "警告！时空风暴等级5！立即寻找掩护！",
+          "sound_effects": "数据风暴呼啸，电子爆裂",
+          "style_notes": "动态效果，色彩对比强烈"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "桃乐丝紧抱托托犬，被数据流卷起，护目镜显示过载警告",
+          "dialogue": "坚持住，托托！这可能是回家的机会！",
+          "sound_effects": "风暴呼啸，装备过载警报",
+          "style_notes": "动态模糊，紧张感"
+        }
+      ]
+    },
+    {
+      "panel_number": 3,
+      "layout_type": "3格布局",
+      "layout_description": "降临奥兹国未来版与遇见格琳达",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "桃乐丝和托托犬降落在高科技但破败的翡翠城废墟，全息投影闪烁",
+          "dialogue": "坐标异常...这不是预期的传送点",
+          "sound_effects": "落地撞击，系统重启",
+          "style_notes": "环境建立，未来感废墟"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "格琳达的全息投影出现，穿着未来长袍，手持数据法杖",
+          "dialogue": "时空旅行者，你是被数据风暴选中的归途者",
+          "sound_effects": "全息投影启动，神秘音效",
+          "style_notes": "未来魔法师形象，光影效果"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "格琳达指向远方的数据彩虹道路",
+          "dialogue": "沿着数据虹桥前进，寻找三位未来守护者",
+          "sound_effects": "指引音效，环境共鸣",
+          "style_notes": "指向性构图，未来感"
+        }
+      ]
+    },
+    {
+      "panel_number": 4,
+      "layout_type": "2格布局",
+      "layout_description": "遇见网络稻草人",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "废弃服务器农场，网络稻草人（AI实体）卡在数据流中，头部是多个显示器",
+          "dialogue": "我需要更强大的处理器...数据过载...",
+          "sound_effects": "服务器风扇噪音，数据过载警报",
+          "style_notes": "科技故障，数据可视化"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "桃乐丝帮稻草人优化代码，托托犬提供数据冷却",
+          "dialogue": "真正的智慧不是算力，而是选择",
+          "sound_effects": "代码编译，冷却系统启动",
+          "style_notes": "技术救援，光影交互"
+        }
+      ]
+    },
+    {
+      "panel_number": 5,
+      "layout_type": "2格布局",
+      "layout_description": "遇见机甲锡人",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "机甲锡人被困在磁力陷阱中，关节被电磁锁死",
+          "dialogue": "动力核心被锁定...需要勇气密码...",
+          "sound_effects": "电磁嗡鸣，金属应力",
+          "style_notes": "机械困境，电磁效果"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "桃乐丝破解安全系统，托托犬用EMP脉冲解除锁定",
+          "dialogue": "勇气就是在恐惧中依然前行",
+          "sound_effects": "系统破解，EMP释放",
+          "style_notes": "技术破解，动作场景"
+        }
+      ]
+    },
+    {
+      "panel_number": 6,
+      "layout_type": "2格布局",
+      "layout_description": "遇见 stealth狮子",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "隐形战甲狮子躲在光学迷彩中，虽然是尖端装备但不敢行动",
+          "dialogue": "隐身模式启动...但我不敢现身...",
+          "sound_effects": "光学迷彩嗡鸣，害怕的机械音",
+          "style_notes": "隐形效果，科技恐惧"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "桃乐丝鼓励狮子，托托犬展示战术勇气",
+          "dialogue": "真正的力量来自内心的信念",
+          "sound_effects": "鼓励音效，勇气增长",
+          "style_notes": "情感交流，决心时刻"
+        }
+      ]
+    },
+    {
+      "panel_number": 7,
+      "layout_type": "3格布局",
+      "layout_description": "团队集结与前进",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "四人战术小队在数据虹桥上前进，背景是发光的高科技翡翠城",
+          "dialogue": "战术队形，保持警戒！目标：回家！",
+          "sound_effects": "战术行进，环境扫描",
+          "style_notes": "团队作战，未来都市"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "桃乐丝查看导航仪，显示时空坐标",
+          "dialogue": "时空稳定性68%，必须加快速度",
+          "sound_effects": "设备提示音，数据流",
+          "style_notes": "技术细节，紧迫感"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "特写：四人坚定的战术表情拼贴",
+          "dialogue": "归途/智慧/勇气/力量！",
+          "sound_effects": "决心和弦，团队主题",
+          "style_notes": "表情特写，象征性"
+        }
+      ]
+    },
+    {
+      "panel_number": 8,
+      "layout_type": "2格布局",
+      "layout_description": "对抗科技女巫",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "科技女巫（黑客形态）率领无人机军团拦截，数据攻击流",
+          "dialogue": "留下时空导航仪！那是控制数据风暴的关键！",
+          "sound_effects": "黑客攻击音效，无人机编队",
+          "style_notes": "科技反派，网络战视觉"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "团队配合反击：稻草人数据防御，锡人物理突破，狮子隐形突击",
+          "dialogue": "为了归途！为了自由！",
+          "sound_effects": "战斗音效，技能协同",
+          "style_notes": "团队作战，战术配合"
+        }
+      ]
+    },
+    {
+      "panel_number": 9,
+      "layout_type": "2格布局",
+      "layout_description": "真相与抉择",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "奥兹（全息AI）揭示真相：导航仪是双向时空门",
+          "dialogue": "你可以回家...或者留下改变这里...",
+          "sound_effects": "真相揭示，数据流动",
+          "style_notes": "抉择时刻，光影对比"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "桃乐丝沉思，看着同伴和回家的选项",
+          "dialogue": "回家...还是守护新的朋友？",
+          "sound_effects": "内心挣扎，情感音乐",
+          "style_notes": "情感特写，矛盾表现"
+        }
+      ]
+    },
+    {
+      "panel_number": 10,
+      "layout_type": "2格布局",
+      "layout_description": "最终决定与新开始",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "桃乐丝选择留下，用导航仪能量稳定时空，新时代开启",
+          "dialogue": "有时候，未来的家比过去的家更重要",
+          "sound_effects": "能量稳定，时空平静",
+          "style_notes": "希望之光，重建时刻"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "全景：新奥兹国繁荣景象，桃乐丝作为守护者站在高处",
+          "dialogue": "这里就是我的未来...我们的新世界！",
+          "sound_effects": "希望主题，新时代启航",
+          "style_notes": "大结局，全景展示"
+        }
+      ]
+    }
+  ]
+}

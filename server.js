@@ -21,7 +21,7 @@ app.use('/temp', express.static(tempDir));
 app.use(express.json());
 
 app.post('/generate-image', async (req, res) => {
-    const { prompt, size } = req.body;
+    const { prompt, size, style = 'comic_american' } = req.body;
     
     // 生成唯一的会话ID
     const sessionId = uuidv4();
@@ -34,16 +34,18 @@ app.post('/generate-image', async (req, res) => {
     
     console.log('生成会话ID:', sessionId);
     console.log('临时目录:', sessionDir);
+    console.log('使用风格:', style);
     
-    await generateComicImage(prompt, size, sessionId, res, sessionDir);
+    await generateComicImage(prompt, size, sessionId, res, sessionDir, style);
 });
 
 app.post('/generate-batch-image', async (req, res) => {
-    const { prompt, size, sessionId: providedSessionId, iscover } = req.body;
+    const { prompt, size, sessionId: providedSessionId, iscover, style = 'comic_american' } = req.body;
     
     console.log('收到批量生成请求:');
     console.log('- 前端提供的sessionId:', providedSessionId);
     console.log('- 是否为封面:', iscover);
+    console.log('- 使用风格:', style);
     console.log('- 请求体:', JSON.stringify(req.body, null, 2));
     
     // 如果前端提供了sessionId，使用它；否则生成新的
@@ -58,7 +60,7 @@ app.post('/generate-batch-image', async (req, res) => {
     console.log('最终使用的会话ID:', sessionId);
     console.log('临时目录:', sessionDir);
     
-    await generateComicImage(prompt, size, sessionId, res, sessionDir);
+    await generateComicImage(prompt, size, sessionId, res, sessionDir, style);
 });
 
 // 下载单张图片
@@ -313,13 +315,24 @@ async function fetchWithRetry(url, options, maxRetries = 3, timeout = 30000) {
     }
 }
 
-async function generateComicImage(prompt, size, sessionId, res, sessionDir) {
+async function generateComicImage(prompt, size, sessionId, res, sessionDir, style = 'comic_american') {
     const apiKey = process.env.DOUBAO_API_KEY;
     const apiUrl = 'https://ark.cn-beijing.volces.com/api/v3/images/generations';
 
     try {
-        const systemPromptPath = path.join(__dirname, 'system_prompt.md');
-        const systemPrompt = fs.readFileSync(systemPromptPath, 'utf-8');
+        // 根据风格选择加载不同的系统提示词文件
+        const systemPromptPath = path.join(__dirname, 'system_prompts', `${style}.md`);
+        let systemPrompt;
+        
+        // 如果指定的风格文件不存在，使用默认的美式漫画风格
+        if (!fs.existsSync(systemPromptPath)) {
+            console.warn(`风格文件 ${style}.md 不存在，使用默认美式漫画风格`);
+            const defaultPromptPath = path.join(__dirname, 'system_prompts', 'comic_american.md');
+            systemPrompt = fs.readFileSync(defaultPromptPath, 'utf-8');
+        } else {
+            systemPrompt = fs.readFileSync(systemPromptPath, 'utf-8');
+        }
+        
         const fullPrompt = `${systemPrompt.trim()}, ${prompt}`;
 
         console.log('开始生成图片，提示词:', prompt);
@@ -396,6 +409,28 @@ async function generateComicImage(prompt, size, sessionId, res, sessionDir) {
         res.status(500).json({ error: errorMessage });
     }
 }
+
+// 获取可用风格列表的API
+app.get('/api/available-styles', (req, res) => {
+    try {
+        const stylesDir = path.join(__dirname, 'system_prompts');
+        
+        if (!fs.existsSync(stylesDir)) {
+            return res.json({ styles: ['comic_american'] });
+        }
+        
+        const files = fs.readdirSync(stylesDir);
+        const styles = files
+            .filter(file => file.endsWith('.md'))
+            .map(file => file.replace('.md', ''))
+            .sort();
+        
+        res.json({ styles });
+    } catch (error) {
+        console.error('获取风格列表失败:', error);
+        res.status(500).json({ error: '获取风格列表失败' });
+    }
+});
 
 // 获取会话图片列表的API
 app.get('/api/list-session-images', (req, res) => {

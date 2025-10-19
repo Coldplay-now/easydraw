@@ -1,0 +1,256 @@
+{
+  "story_title": "清明上河图",
+  "cover": {
+    "title_text": "清明上河图",
+    "title_style": "古典书法字体，金色描边，传统卷轴效果，古朴典雅",
+    "visual_description": "北宋汴京全景鸟瞰图，汴河蜿蜒穿过城市，两岸商铺林立，行人如织，虹桥横跨河面，船只往来穿梭，整体呈现繁华盛世景象",
+    "main_character": "画面中心汴河上的大型客船，船工忙碌操作，乘客凭栏远眺",
+    "key_elements": "汴河、虹桥、城楼、商铺、行人、车马、船只，展现宋代都市生活的方方面面",
+    "style_notes": "中国传统工笔画风格，精细线条，淡雅色彩，注重细节描绘，历史厚重感",
+    "color_scheme": "赭石、墨绿、淡青、朱红、金黄等传统中国画色彩",
+    "composition": "横向长卷式构图，视线从左至右引导，重点突出虹桥和汴河场景"
+  },
+  "total_panels": 10,
+  "total_frames": 24,
+  "total_images": 11,
+  "panels": [
+    {
+      "panel_number": 1,
+      "layout_type": "3格布局",
+      "layout_description": "引入故事背景和时代 setting",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "北宋汴京城外远景，晨曦中的城墙轮廓，炊烟袅袅",
+          "dialogue": "北宋宣和年间，汴京正值太平盛世...",
+          "sound_effects": "晨钟声",
+          "style_notes": "淡墨渲染，远景朦胧感"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "汴河码头全景，船只停靠，工人装卸货物",
+          "dialogue": "汴河作为南北漕运要道，每日船只往来不绝",
+          "sound_effects": "水流声、号子声",
+          "style_notes": "中景构图，展现繁忙景象"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "城内街市特写，商铺开门营业，行人开始活动",
+          "dialogue": "城内街市渐渐热闹起来，新的一天开始了",
+          "sound_effects": "开门声、叫卖声",
+          "style_notes": "近景细节，生活气息浓厚"
+        }
+      ]
+    },
+    {
+      "panel_number": 2,
+      "layout_type": "2格布局",
+      "layout_description": "展现虹桥上的繁忙场景",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "虹桥全景，桥上行人拥挤，商贩摆摊，车马通行",
+          "dialogue": "虹桥之上，人来人往，好不热闹",
+          "sound_effects": "人声嘈杂、马蹄声",
+          "style_notes": "俯视角度，展现人流密度"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "桥边特写，小贩叫卖，儿童嬉戏，老人下棋",
+          "dialogue": "冰糖葫芦！新鲜的冰糖葫芦！",
+          "sound_effects": "叫卖声、欢笑声",
+          "style_notes": "生活细节特写，生动有趣"
+        }
+      ]
+    },
+    {
+      "panel_number": 3,
+      "layout_type": "3格布局",
+      "layout_description": "汴河船只往来场景",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "大型客船通过桥洞，船工紧张操作",
+          "dialogue": "小心！注意桥洞！",
+          "sound_effects": "船工号子、水流声",
+          "style_notes": "动态瞬间，紧张氛围"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "货船卸货场景，工人搬运粮食布匹",
+          "dialogue": "这批江南丝绸要赶在午时前送到",
+          "sound_effects": "搬运声、计数声",
+          "style_notes": "劳动场景，写实描绘"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "小船上的渔夫撒网捕鱼",
+          "dialogue": "今日收获不错，晚上可以加菜了",
+          "sound_effects": "撒网声、水花声",
+          "style_notes": "宁静画面，生活气息"
+        }
+      ]
+    },
+    {
+      "panel_number": 4,
+      "layout_type": "2格布局",
+      "layout_description": "街市商业活动",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "绸缎庄内，顾客挑选布料，掌柜拨算盘",
+          "dialogue": "这匹杭州锦缎最适合做春衫",
+          "sound_effects": "算盘声、布料摩擦声",
+          "style_notes": "室内场景，商业细节"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "茶馆里，说书人讲故事，茶客听得入神",
+          "dialogue": "话说那梁山好汉...",
+          "sound_effects": "惊堂木声、喝彩声",
+          "style_notes": "文化娱乐，市井生活"
+        }
+      ]
+    },
+    {
+      "panel_number": 5,
+      "layout_type": "3格布局",
+      "layout_description": "各行各业人物特写",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "剃头匠为客人理发，手法熟练",
+          "dialogue": "客官，这个发型可还满意？",
+          "sound_effects": "剪刀声、梳子声",
+          "style_notes": "手艺人生动描绘"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "医生诊脉，病人诉说病情",
+          "dialogue": "大夫，我这几日总觉得头晕...",
+          "sound_effects": "切脉声、叹息声",
+          "style_notes": "医疗场景，人文关怀"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "书生在书摊前翻阅典籍",
+          "dialogue": "这本《论语集注》正是我所需",
+          "sound_effects": "翻书声、议论声",
+          "style_notes": "文化教育，学术氛围"
+        }
+      ]
+    },
+    {
+      "panel_number": 6,
+      "layout_type": "2格布局",
+      "layout_description": "交通运输工具展示",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "马车运货进城，车夫吆喝让路",
+          "dialogue": "让一让！让一让！新鲜的蔬菜来了！",
+          "sound_effects": "马蹄声、车轮声",
+          "style_notes": "陆路运输，繁忙景象"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "轿子抬着官员经过，行人避让",
+          "dialogue": "大人出行，闲人避让！",
+          "sound_effects": "鸣锣开道声",
+          "style_notes": "官场礼仪，等级森严"
+        }
+      ]
+    },
+    {
+      "panel_number": 7,
+      "layout_type": "3格布局",
+      "layout_description": "饮食文化展现",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "酒楼里厨师烹饪美食",
+          "dialogue": "这道东坡肉要文火慢炖两个时辰",
+          "sound_effects": "炒菜声、锅铲声",
+          "style_notes": "美食制作，色香味表现"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "小吃摊前顾客排队购买",
+          "dialogue": "给我来两个肉包子！",
+          "sound_effects": "叫卖声、付钱声",
+          "style_notes": "平民美食，日常生活"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "酒肆里客人举杯畅饮",
+          "dialogue": "干杯！为这太平盛世！",
+          "sound_effects": "碰杯声、欢笑声",
+          "style_notes": "社交饮酒，欢乐氛围"
+        }
+      ]
+    },
+    {
+      "panel_number": 8,
+      "layout_type": "2格布局",
+      "layout_description": "娱乐休闲活动",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "杂技艺人表演吞剑，观众惊呼",
+          "dialogue": "各位看官，有钱的捧个钱场！",
+          "sound_effects": "惊呼声、鼓掌声",
+          "style_notes": "街头艺术，惊险刺激"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "孩童放风筝，在空地上奔跑嬉戏",
+          "dialogue": "我的风筝飞得最高！",
+          "sound_effects": "欢笑声、风筝声",
+          "style_notes": "童真乐趣，无忧无虑"
+        }
+      ]
+    },
+    {
+      "panel_number": 9,
+      "layout_type": "3格布局",
+      "layout_description": "傍晚时分的城市",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "夕阳西下，汴河染上金色",
+          "dialogue": "天色渐晚，该收工回家了",
+          "sound_effects": "归鸟声、钟声",
+          "style_notes": "黄昏美景，温暖色调"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "商铺陆续关门，掌柜清点账目",
+          "dialogue": "今日收益不错，明日继续努力",
+          "sound_effects": "关门声、算盘声",
+          "style_notes": "商业结束，盘点收获"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "家家户户点亮灯火，炊烟升起",
+          "dialogue": "娘子，我回来了！",
+          "sound_effects": "开门声、家常话",
+          "style_notes": "家庭温馨，夜晚安宁"
+        }
+      ]
+    },
+    {
+      "panel_number": 10,
+      "layout_type": "1格布局",
+      "layout_description": "全景收尾，历史意义升华",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "月光下的汴京全景，万家灯火，宁静祥和",
+          "dialogue": "这一幅清明上河图，记录了北宋繁华的市井生活，成为千古传世之作",
+          "sound_effects": "虫鸣声、微风声",
+          "style_notes": "全景收尾，历史厚重感，月光效果"
+        }
+      ]
+    }
+  ]
+}
