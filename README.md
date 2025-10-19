@@ -27,6 +27,32 @@
 ### 创作流程演示
 <img src="public/assets/6.png" alt="创作流程演示" width="50%">
 
+### 多样化风格展示
+
+#### 美式漫画风格示例
+<img src="public/assets/1760865814751.png" alt="美式漫画风格示例" width="50%">
+
+#### 日式漫画风格示例
+<img src="public/assets/1760869908920.png" alt="日式漫画风格示例" width="50%">
+
+#### 欧式漫画风格示例
+<img src="public/assets/1760871620913.png" alt="欧式漫画风格示例" width="50%">
+
+#### 中国风格示例
+<img src="public/assets/1760871696676.png" alt="中国风格示例" width="50%">
+
+#### 赛博朋克风格示例
+<img src="public/assets/1760871989125.png" alt="赛博朋克风格示例" width="50%">
+
+#### 奇幻风格示例
+<img src="public/assets/1760872066466.png" alt="奇幻风格示例" width="50%">
+
+#### 莫比斯风格示例
+<img src="public/assets/1760872329628.png" alt="莫比斯风格示例" width="50%">
+
+#### 自定义风格示例
+<img src="public/assets/1760873205185.png" alt="自定义风格示例" width="50%">
+
 ## ✨ 功能特性
 
 ### 🎬 分镜头脚本生成器
