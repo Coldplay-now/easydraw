@@ -1,0 +1,256 @@
+{
+  "story_title": "美国西部废土牛仔绝处逢生",
+  "cover": {
+    "title_text": "荒野求生",
+    "title_style": "粗犷的西部字体，带有锈蚀和风化效果，字体颜色为深棕色和橙红色渐变",
+    "visual_description": "废土化的美国西部荒漠背景，一个孤独的牛仔剪影站在破碎的岩石上，远处是废弃的小镇和核爆后的蘑菇云残影，天空呈现末日般的橙红色",
+    "main_character": "牛仔身穿破旧的皮夹克和牛仔帽，腰间挂着左轮手枪，背影透露出坚韧不屈的气质",
+    "key_elements": "废弃的风车、破碎的公路标志、散落的骷髅、仙人掌、沙尘暴、远山轮廓",
+    "style_notes": "后末日废土风格，粗犷写实，强烈的明暗对比，沙漠色调为主",
+    "color_scheme": "土黄、赭石、深棕、橙红、灰黑色调",
+    "composition": "牛仔位于画面右侧三分之一处，标题位于上方，营造广阔荒凉的视觉效果"
+  },
+  "total_panels": 10,
+  "total_frames": 24,
+  "total_images": 11,
+  "panels": [
+    {
+      "panel_number": 1,
+      "layout_type": "3格布局",
+      "layout_description": "引入末日后的荒凉世界和主角困境",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "广阔的废土荒漠，远处冒着黑烟的废弃城市废墟",
+          "dialogue": "核战争后的第十年，文明已成废墟...",
+          "sound_effects": "风声呼啸",
+          "style_notes": "宽景镜头，展现末日世界的荒凉"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "牛仔杰克骑着瘦弱的马在沙漠中艰难前行，水壶已空",
+          "dialogue": "该死...水没了，最近的水源还有多远？",
+          "sound_effects": "马蹄声，干涸的水壶摇晃声",
+          "style_notes": "中景，突出人物的疲惫和绝望"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "杰克从马背上摔下，马儿倒地不起，他绝望地看着空荡的地平线",
+          "dialogue": "老伙计...对不起，我们都撑不下去了",
+          "sound_effects": "重物倒地声",
+          "style_notes": "低角度拍摄，强调绝境的压迫感"
+        }
+      ]
+    },
+    {
+      "panel_number": 2,
+      "layout_type": "2格布局",
+      "layout_description": "发现希望的线索",
+      "frames": [
+        {
+          "frame_number": 4,
+          "visual_description": "杰克在沙地上发现了新鲜的脚印和车轮痕迹",
+          "dialogue": "这些痕迹...还很新鲜，有人刚经过这里！",
+          "sound_effects": "",
+          "style_notes": "特写镜头，突出发现的重要性"
+        },
+        {
+          "frame_number": 5,
+          "visual_description": "杰克强撑着站起身，眼中重新燃起希望的火光",
+          "dialogue": "还有希望...我必须跟上他们！",
+          "sound_effects": "沙子摩擦声",
+          "style_notes": "仰视角度，表现人物重新振作的决心"
+        }
+      ]
+    },
+    {
+      "panel_number": 3,
+      "layout_type": "3格布局",
+      "layout_description": "追踪过程中的危险遭遇",
+      "frames": [
+        {
+          "frame_number": 6,
+          "visual_description": "杰克徒步跟踪痕迹，烈日当头，汗水浸透衣衫",
+          "dialogue": "（内心独白）一定要坚持...不能在这里倒下",
+          "sound_effects": "脚步声，喘息声",
+          "style_notes": "侧面跟拍，展现艰难的跋涉过程"
+        },
+        {
+          "frame_number": 7,
+          "visual_description": "突然，一群变异的土狼从岩石后窜出，包围了杰克",
+          "dialogue": "变异兽！该死的辐射怪物！",
+          "sound_effects": "低吼声，爪子抓地声",
+          "style_notes": "紧张的包围构图，突出危机感"
+        },
+        {
+          "frame_number": 8,
+          "visual_description": "杰克迅速拔枪，在岩石间与土狼群激战",
+          "dialogue": "来吧！老子可不是好惹的！",
+          "sound_effects": "枪声，咆哮声",
+          "style_notes": "动态的战斗场面，枪火四射"
+        }
+      ]
+    },
+    {
+      "panel_number": 4,
+      "layout_type": "2格布局",
+      "layout_description": "战斗胜利但付出代价",
+      "frames": [
+        {
+          "frame_number": 9,
+          "visual_description": "杰克击退了土狼群，但左臂被抓伤，子弹所剩无几",
+          "dialogue": "该死...子弹不多了，伤口还在流血",
+          "sound_effects": "远去的嚎叫声",
+          "style_notes": "特写受伤的手臂，血迹斑斑"
+        },
+        {
+          "frame_number": 10,
+          "visual_description": "杰克用破布包扎伤口，眼神坚定地继续前进",
+          "dialogue": "不能停下...前面一定有人，有水源！",
+          "sound_effects": "布条撕裂声",
+          "style_notes": "坚毅的表情特写，突出不屈精神"
+        }
+      ]
+    },
+    {
+      "panel_number": 5,
+      "layout_type": "1格布局",
+      "layout_description": "发现废弃加油站的转机",
+      "frames": [
+        {
+          "frame_number": 11,
+          "visual_description": "夕阳西下，杰克在地平线上发现了一座废弃的加油站，烟囱冒着炊烟",
+          "dialogue": "那里有烟！有人在那里生火！",
+          "sound_effects": "风声，远处的金属碰撞声",
+          "style_notes": "宽景构图，夕阳余晖洒在废弃建筑上，营造希望的氛围"
+        }
+      ]
+    },
+    {
+      "panel_number": 6,
+      "layout_type": "3格布局",
+      "layout_description": "接近加油站时的谨慎和发现",
+      "frames": [
+        {
+          "frame_number": 12,
+          "visual_description": "杰克小心翼翼地接近加油站，手握左轮枪",
+          "dialogue": "（小声）不知道是朋友还是敌人...",
+          "sound_effects": "轻微的脚步声",
+          "style_notes": "紧张的潜行镜头，阴影中的人物"
+        },
+        {
+          "frame_number": 13,
+          "visual_description": "透过破窗看到里面有一个老人和一个小女孩围着火堆",
+          "dialogue": "是平民...看起来不像强盗",
+          "sound_effects": "火焰燃烧声，低声交谈",
+          "style_notes": "窥视角度，温暖的火光对比外面的寒冷"
+        },
+        {
+          "frame_number": 14,
+          "visual_description": "杰克收起枪，敲响了加油站的门",
+          "dialogue": "有人吗？我是路过的旅人，需要帮助",
+          "sound_effects": "敲门声",
+          "style_notes": "正面镜头，展现杰克的诚意"
+        }
+      ]
+    },
+    {
+      "panel_number": 7,
+      "layout_type": "2格布局",
+      "layout_description": "获得帮助和人性的温暖",
+      "frames": [
+        {
+          "frame_number": 15,
+          "visual_description": "老人开门，看到受伤的杰克，立即邀请他进来",
+          "dialogue": "老人：天哪！快进来，孩子，你受伤了！",
+          "sound_effects": "门轴吱呀声",
+          "style_notes": "温暖的室内光线，人性的关怀"
+        },
+        {
+          "frame_number": 16,
+          "visual_description": "小女孩为杰克端来水和食物，老人为他包扎伤口",
+          "dialogue": "小女孩：这是我们最后的水了，但你更需要它",
+          "sound_effects": "水声，撕布声",
+          "style_notes": "温馨的救助场面，突出人性的善良"
+        }
+      ]
+    },
+    {
+      "panel_number": 8,
+      "layout_type": "3格布局",
+      "layout_description": "了解真相和做出决定",
+      "frames": [
+        {
+          "frame_number": 17,
+          "visual_description": "老人告诉杰克，他们的水源也快用完了，正准备前往传说中的绿洲",
+          "dialogue": "老人：我们也撑不了多久了，听说北边有个绿洲...",
+          "sound_effects": "火焰噼啪声",
+          "style_notes": "严肃的对话场面，火光摇曳"
+        },
+        {
+          "frame_number": 18,
+          "visual_description": "杰克看着小女孩天真的眼神，内心做出了决定",
+          "dialogue": "（内心独白）我不能让他们独自面对危险",
+          "sound_effects": "",
+          "style_notes": "杰克表情的特写，内心挣扎"
+        },
+        {
+          "frame_number": 19,
+          "visual_description": "杰克站起身，坚定地说要护送他们到绿洲",
+          "dialogue": "我来护送你们，一个人走太危险了",
+          "sound_effects": "",
+          "style_notes": "英雄般的决心，背光剪影效果"
+        }
+      ]
+    },
+    {
+      "panel_number": 9,
+      "layout_type": "2格布局",
+      "layout_description": "踏上新的希望之旅",
+      "frames": [
+        {
+          "frame_number": 20,
+          "visual_description": "第二天清晨，三人收拾行囊，准备出发",
+          "dialogue": "老人：谢谢你，年轻人，愿上帝保佑我们",
+          "sound_effects": "收拾物品声",
+          "style_notes": "晨光中的希望，新的开始"
+        },
+        {
+          "frame_number": 21,
+          "visual_description": "杰克背着小女孩，老人拄着拐杖，三人向北方前进",
+          "dialogue": "小女孩：叔叔，绿洲真的存在吗？",
+          "sound_effects": "脚步声",
+          "style_notes": "温馨的旅行画面，相互扶持"
+        }
+      ]
+    },
+    {
+      "panel_number": 10,
+      "layout_type": "3格布局",
+      "layout_description": "找到绿洲的希望结局",
+      "frames": [
+        {
+          "frame_number": 22,
+          "visual_description": "经过数日跋涉，三人终于看到了远处的绿洲",
+          "dialogue": "杰克：看！那里有棕榈树！有水！",
+          "sound_effects": "激动的呼喊声",
+          "style_notes": "远景展现绿洲的美丽，希望的实现"
+        },
+        {
+          "frame_number": 23,
+          "visual_description": "三人在清澈的泉水边痛饮甘露，脸上洋溢着劫后余生的喜悦",
+          "dialogue": "老人：感谢上帝...我们活下来了！",
+          "sound_effects": "流水声，欢笑声",
+          "style_notes": "生命的庆祝，清澈的水与绿色植物"
+        },
+        {
+          "frame_number": 24,
+          "visual_description": "夕阳下，杰克看着在绿洲中玩耍的小女孩和休息的老人，内心充满平静",
+          "dialogue": "（内心独白）在这个残酷的世界里，还有值得守护的美好...",
+          "sound_effects": "微风声，鸟鸣声",
+          "style_notes": "温暖的结尾画面，希望与人性的胜利"
+        }
+      ]
+    }
+  ]
+}

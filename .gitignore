@@ -65,3 +65,6 @@ book/space_comic_script.md
 
 # 测试文件（禁止提交）
 public/test-download.html
+
+# 备份文件（禁止提交）
+*.backup

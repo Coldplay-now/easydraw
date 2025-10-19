@@ -139,6 +139,32 @@ button:disabled {
     100% { transform: rotate(360deg); }
 }
 
+/* 统一的按钮加载动画 */
+.loading-spinner {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* 按钮加载状态样式 */
+button:disabled .loading-spinner {
+    border-color: rgba(255, 255, 255, 0.5);
+    border-top-color: #fff;
+}
+
+/* 确保按钮在加载状态下的样式 */
+button:disabled {
+    opacity: 0.8;
+    cursor: not-allowed;
+    position: relative;
+}
+
 /* 单选按钮组样式 */
 .radio-group {
     display: flex;

@@ -230,23 +230,41 @@ app.post('/download-pdf', async (req, res) => {
             const imagePath = path.join(sessionDir, imageFiles[i]);
             
             if (fs.existsSync(imagePath)) {
-                // 添加新页面
-                doc.addPage();
-                
-                // 计算图片尺寸以适应页面
-                const pageWidth = doc.page.width - 40; // 减去边距
-                const pageHeight = doc.page.height - 40; // 减去边距
-                
                 try {
-                    // 添加图片到PDF
+                    // 获取图片尺寸信息
+                    const imageInfo = doc._getImageInfo(imagePath);
+                    const imageWidth = imageInfo.width;
+                    const imageHeight = imageInfo.height;
+                    const imageRatio = imageWidth / imageHeight;
+                    
+                    // 根据图片比例选择页面方向
+                    // 4:3 比例 ≈ 1.33, 3:4 比例 ≈ 0.75
+                    let pageOrientation = 'portrait'; // 默认竖版
+                    if (imageRatio > 1.2) { // 横版图片 (4:3 等)
+                        pageOrientation = 'landscape';
+                    }
+                    
+                    // 添加新页面，根据图片比例选择方向
+                    doc.addPage({
+                        size: 'A4',
+                        layout: pageOrientation,
+                        margin: 20
+                    });
+                    
+                    // 计算图片尺寸以适应页面
+                    const pageWidth = doc.page.width - 40; // 减去边距
+                    const pageHeight = doc.page.height - 40; // 减去边距
+                    
+                    // 添加图片到PDF，优化适配
                     doc.image(imagePath, 20, 20, {
                         fit: [pageWidth, pageHeight],
                         align: 'center',
                         valign: 'center'
                     });
                 } catch (imageError) {
-                    console.error(`添加图片失败 ${imageFiles[i]}:`, imageError);
-                    // 如果图片添加失败，添加错误文本
+                    console.error(`处理图片失败 ${imageFiles[i]}:`, imageError);
+                    // 如果图片处理失败，添加默认页面和错误文本
+                    doc.addPage();
                     doc.fontSize(12).text(`图片加载失败: ${imageFiles[i]}`, 20, 20);
                 }
             }

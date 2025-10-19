@@ -95,11 +95,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 单图生成
     async function generateSingleImage(prompt, size) {
-        generateBtn.disabled = true;
-        loader.style.display = 'block';
-        loader.textContent = '生成中...';
-        imageContainer.innerHTML = '';
-        imageContainer.appendChild(loader);
+        // 使用统一的加载状态
+        setButtonLoadingState(true, { text: '生成中' });
 
         try {
             const response = await fetch('/generate-image', {
@@ -131,14 +128,8 @@ document.addEventListener('DOMContentLoaded', () => {
             // 创建下载按钮
             const downloadBtn = document.createElement('button');
             downloadBtn.textContent = '下载图片';
-            downloadBtn.className = 'download-btn';
+            downloadBtn.className = 'btn-primary btn-small';
             downloadBtn.style.marginTop = '10px';
-            downloadBtn.style.padding = '8px 16px';
-            downloadBtn.style.backgroundColor = '#007bff';
-            downloadBtn.style.color = 'white';
-            downloadBtn.style.border = 'none';
-            downloadBtn.style.borderRadius = '4px';
-            downloadBtn.style.cursor = 'pointer';
             
             downloadBtn.addEventListener('click', (event) => {
                 downloadSingleImage(data.sessionId, data.fileName, event.target);
@@ -175,8 +166,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `;
         } finally {
-            generateBtn.disabled = false;
-            loader.style.display = 'none';
+            // 恢复按钮正常状态
+            setButtonLoadingState(false);
         }
     }
 
@@ -247,6 +238,57 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    // 统一的按钮状态管理系统
+    function setButtonLoadingState(isLoading, options = {}) {
+        const {
+            text = '生成中',
+            showProgress = false,
+            progress = 0,
+            total = 0
+        } = options;
+
+        if (isLoading) {
+            // 设置按钮为加载状态
+            generateBtn.disabled = true;
+            generateBtn.innerHTML = `
+                <span class="loading-spinner"></span>
+                ${text}${showProgress ? `... (${progress}/${total})` : '...'}
+            `;
+            
+            // 显示对应的进度容器
+            if (showProgress) {
+                progressContainer.style.display = 'block';
+                progressFill.style.width = total > 0 ? `${(progress / total) * 100}%` : '0%';
+                progressText.textContent = `${progress}/${total}`;
+            } else {
+                loader.style.display = 'block';
+                loader.textContent = `${text}...`;
+                imageContainer.innerHTML = '';
+                imageContainer.appendChild(loader);
+            }
+        } else {
+            // 恢复按钮正常状态
+            generateBtn.disabled = false;
+            generateBtn.innerHTML = '生成图片';
+            
+            // 隐藏所有进度显示
+            loader.style.display = 'none';
+            progressContainer.style.display = 'none';
+        }
+    }
+
+    // 更新进度状态（仅用于多图生成）
+    function updateProgressState(progress, total, text = '生成中') {
+        if (generateBtn.disabled) {
+            generateBtn.innerHTML = `
+                <span class="loading-spinner"></span>
+                ${text}... (${progress}/${total})
+            `;
+            progressFill.style.width = total > 0 ? `${(progress / total) * 100}%` : '0%';
+            progressText.textContent = `${progress}/${total}`;
+        }
+    }
+
     // 实时更新统计数字
     function updateRealTimeStatistics(successCount, errorCount) {
         const successElement = document.getElementById('success-count');
@@ -257,10 +299,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     async function generateBatchImages(jsonFile, size) {
-        generateBtn.disabled = true;
-        progressContainer.style.display = 'block';
-        imageContainer.innerHTML = '';
-
         try {
             const jsonContent = await readFileAsText(jsonFile);
             const comicData = JSON.parse(jsonContent);
@@ -277,9 +315,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 throw new Error('JSON文件中没有找到可生成的内容');
             }
 
-            // 显示进度条
-            progressFill.style.width = '0%';
-            progressText.textContent = `0/${totalImages}`;
+            // 使用统一的加载状态（多图模式）
+            setButtonLoadingState(true, { 
+                text: '批量生成中', 
+                showProgress: true, 
+                progress: 0, 
+                total: totalImages 
+            });
+            imageContainer.innerHTML = '';
 
             const results = [];
             let completed = 0;
@@ -325,9 +368,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     // 更新进度
                     completed++;
-                    const progress = (completed / totalImages) * 100;
-                    progressFill.style.width = `${progress}%`;
-                    progressText.textContent = `${completed}/${totalImages}`;
+                    
+                    // 使用统一的进度更新
+                    updateProgressState(completed, totalImages, '批量生成中');
                     
                     // 实时更新统计
                     updateRealTimeStatistics(successCount, errorCount);
@@ -359,9 +402,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     
                     // 更新进度
                     completed++;
-                    const progress = (completed / totalImages) * 100;
-                    progressFill.style.width = `${progress}%`;
-                    progressText.textContent = `${completed}/${totalImages}`;
+                    
+                    // 使用统一的进度更新
+                    updateProgressState(completed, totalImages, '批量生成中');
                     
                     // 实时更新统计
                     updateRealTimeStatistics(successCount, errorCount);
@@ -405,9 +448,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     // 更新进度
                     completed++;
-                    const progress = (completed / totalImages) * 100;
-                    progressFill.style.width = `${progress}%`;
-                    progressText.textContent = `${completed}/${totalImages}`;
+                    
+                    // 使用统一的进度更新
+                    updateProgressState(completed, totalImages, '批量生成中');
                     
                     // 实时更新统计
                     updateRealTimeStatistics(successCount, errorCount);
@@ -440,9 +483,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     
                     // 更新进度
                     completed++;
-                    const progress = (completed / totalImages) * 100;
-                    progressFill.style.width = `${progress}%`;
-                    progressText.textContent = `${completed}/${totalImages}`;
+                    
+                    // 使用统一的进度更新
+                    updateProgressState(completed, totalImages, '批量生成中');
                     
                     // 实时更新统计
                     updateRealTimeStatistics(successCount, errorCount);
@@ -457,16 +500,12 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error('Error:', error);
             imageContainer.innerHTML = `<p>错误: ${error.message}</p>`;
         } finally {
-            generateBtn.disabled = false;
-            progressContainer.style.display = 'none';
+            setButtonLoadingState(false);
         }
     }
 
     // 初始化批量显示容器
     function initializeBatchDisplay(title, sessionId) {
-        const successResults = [];
-        const errorResults = [];
-
         let html = `
             <div class="batch-result" id="batch-result-container">
                 <h3>${title} - 生成中...</h3>
@@ -474,12 +513,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p>成功: <span id="success-count">0</span> 张, 失败: <span id="error-count">0</span> 张</p>
                 </div>
                 <div style="margin-bottom: 20px; display: flex; gap: 15px; flex-wrap: wrap;" id="download-section" style="display: none;">
-                    <button onclick="downloadBatchImages('${sessionId}')" 
-                            style="padding: 12px 24px; background-color: #28a745; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 16px; font-weight: 500; transition: background-color 0.2s;">
+                    <button onclick="downloadBatchImages('${sessionId}')" class="btn-success">
                         打包下载ZIP
                     </button>
-                    <button onclick="downloadPDF('${sessionId}', '${title}')" 
-                            style="padding: 12px 24px; background-color: #dc3545; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 16px; font-weight: 500; transition: background-color 0.2s;">
+                    <button onclick="downloadPDF('${sessionId}', '${title}')" class="btn-danger">
                         下载PDF漫画
                     </button>
                 </div>
@@ -533,20 +570,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // 更新批量生成统计信息
-    function updateBatchStatistics(results) {
-        const successResults = results.filter(r => !r.error);
-        const errorResults = results.filter(r => r.error);
-        
-        const successCount = document.getElementById('success-count');
-        const errorCount = document.getElementById('error-count');
-        const title = document.querySelector('#batch-result-container h3');
-        
-        if (successCount) successCount.textContent = successResults.length;
-        if (errorCount) errorCount.textContent = errorResults.length;
-        if (title) title.textContent = title.textContent.replace('生成中...', '生成完成');
-    }
-
     // 文件读取工具函数
     function readFileAsText(file) {
         return new Promise((resolve, reject) => {
@@ -555,62 +578,6 @@ document.addEventListener('DOMContentLoaded', () => {
             reader.onerror = e => reject(new Error('文件读取失败'));
             reader.readAsText(file);
         });
-    }
-
-    // 显示批量生成结果
-    function displayBatchResults(results, title, sessionId) {
-        const successResults = results.filter(r => !r.error);
-        const errorResults = results.filter(r => r.error);
-
-        let html = `
-            <div class="batch-result">
-                <h3>${title} - 生成完成</h3>
-                <p>成功: ${successResults.length} 张, 失败: ${errorResults.length} 张</p>
-        `;
-
-        if (successResults.length > 0) {
-            html += `
-                <div style="margin-bottom: 20px; display: flex; gap: 15px; flex-wrap: wrap;">
-                    <button onclick="downloadBatchImages('${sessionId}')" 
-                            style="padding: 12px 24px; background-color: #28a745; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 16px; font-weight: 500; transition: background-color 0.2s;">
-                        打包下载ZIP
-                    </button>
-                    <button onclick="downloadPDF('${sessionId}', '${title}')" 
-                            style="padding: 12px 24px; background-color: #dc3545; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 16px; font-weight: 500; transition: background-color 0.2s;">
-                        下载PDF漫画
-                    </button>
-                </div>
-                <div class="batch-images">
-                    ${successResults.map(result => `
-                        <div>
-                            <img src="${result.imagePath}" alt="分镜 ${result.panel}">
-                            <p>分镜 ${result.panel}</p>
-                            <small>${result.description}</small>
-                            <button onclick="downloadSingleImage('${sessionId}', '${result.fileName}', this)" 
-                                    style="margin-top: 5px; padding: 5px 10px; background-color: #007bff; color: white; border: none; border-radius: 3px; cursor: pointer;">
-                                下载
-                            </button>
-                        </div>
-                    `).join('')}
-                </div>
-            `;
-        }
-
-        if (errorResults.length > 0) {
-            html += `
-                <div style="margin-top: 1rem;">
-                    <h4>失败的分镜:</h4>
-                    <ul>
-                        ${errorResults.map(result => `
-                            <li>分镜 ${result.panel}: ${result.error}</li>
-                        `).join('')}
-                    </ul>
-                </div>
-            `;
-        }
-
-        html += '</div>';
-        imageContainer.innerHTML = html;
     }
 
     // 显示提示消息

@@ -1,0 +1,270 @@
+{
+  "story_title": "迈阿密沙滩浪漫故事",
+  "cover": {
+    "title_text": "海风恋歌",
+    "title_style": "优雅的手写体字体，带有海浪纹理效果，颜色为深海蓝渐变到珊瑚粉",
+    "visual_description": "迈阿密南海滩的黄昏时分，金色沙滩上一对恋人的剪影相拥而立，背景是绚烂的夕阳和椰子树，远处是装饰艺术风格的酒店建筑",
+    "main_character": "一对年轻恋人，男主角是拉丁裔音乐家，女主角是来自北方的艺术系学生，两人在夕阳下拥抱",
+    "key_elements": "椰子树、海浪、沙滩、夕阳、海鸥、装饰艺术建筑、音乐符号、画板",
+    "style_notes": "温暖浪漫的热带风情，柔和的光影效果，梦幻般的色彩搭配",
+    "color_scheme": "金黄、珊瑚粉、天蓝、薄荷绿、象牙白",
+    "composition": "恋人剪影位于画面中心，夕阳作为背景光源，标题位于上方天空区域"
+  },
+  "total_panels": 10,
+  "total_frames": 26,
+  "total_images": 11,
+  "panels": [
+    {
+      "panel_number": 1,
+      "layout_type": "3格布局",
+      "layout_description": "引入迈阿密海滩的美丽环境和女主角的到来",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "迈阿密南海滩的清晨，阳光洒在白色沙滩上，海浪轻拍岸边",
+          "dialogue": "旁白：迈阿密，这座充满活力的海滨城市...",
+          "sound_effects": "海浪声，海鸥叫声",
+          "style_notes": "明亮清新的海滩全景，展现热带天堂的美丽"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "艺术系学生索菲亚拖着行李箱走下飞机，兴奋地看着迈阿密的天空",
+          "dialogue": "索菲亚：终于到了！我的春假艺术之旅开始了！",
+          "sound_effects": "飞机引擎声",
+          "style_notes": "充满期待的表情，明亮的机场背景"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "索菲亚在海滩酒店办理入住，透过大堂玻璃窗看到美丽的海景",
+          "dialogue": "前台：欢迎来到迈阿密！希望您度过愉快的假期",
+          "sound_effects": "酒店大堂的轻音乐",
+          "style_notes": "装饰艺术风格的酒店内饰，温暖的接待氛围"
+        }
+      ]
+    },
+    {
+      "panel_number": 2,
+      "layout_type": "2格布局",
+      "layout_description": "索菲亚初次体验迈阿密海滩",
+      "frames": [
+        {
+          "frame_number": 4,
+          "visual_description": "索菲亚换上比基尼，兴奋地跑向海滩，感受温暖的沙子",
+          "dialogue": "哇！这沙子好细腻，海水好温暖！",
+          "sound_effects": "脚步踩在沙子上的声音",
+          "style_notes": "青春活力的画面，强调海滩的诱人魅力"
+        },
+        {
+          "frame_number": 5,
+          "visual_description": "索菲亚在沙滩上支起画架，开始画海景，专注而认真",
+          "dialogue": "（内心独白）这里的光线太美了，一定要把它画下来",
+          "sound_effects": "画笔在画布上的声音",
+          "style_notes": "艺术创作的专注神情，海滩作为绘画背景"
+        }
+      ]
+    },
+    {
+      "panel_number": 3,
+      "layout_type": "3格布局",
+      "layout_description": "男主角的出现和音乐的魅力",
+      "frames": [
+        {
+          "frame_number": 6,
+          "visual_description": "远处传来优美的吉他声，索菲亚抬头寻找声音来源",
+          "dialogue": "这音乐...好美！",
+          "sound_effects": "吉他弹奏声",
+          "style_notes": "音乐的魔力吸引注意，好奇的表情"
+        },
+        {
+          "frame_number": 7,
+          "visual_description": "拉丁裔音乐家卡洛斯坐在椰子树下弹吉他，阳光透过叶子洒在他身上",
+          "dialogue": "卡洛斯：（唱歌）Como el viento del mar...",
+          "sound_effects": "西班牙语歌声，海风声",
+          "style_notes": "浪漫的光影效果，突出音乐家的魅力"
+        },
+        {
+          "frame_number": 8,
+          "visual_description": "索菲亚被音乐深深吸引，不知不觉走向卡洛斯",
+          "dialogue": "（内心独白）我从没听过这么动人的音乐...",
+          "sound_effects": "轻柔的脚步声",
+          "style_notes": "被音乐吸引的梦幻状态，脚步轻盈"
+        }
+      ]
+    },
+    {
+      "panel_number": 4,
+      "layout_type": "2格布局",
+      "layout_description": "初次相遇的美好时刻",
+      "frames": [
+        {
+          "frame_number": 9,
+          "visual_description": "卡洛斯注意到索菲亚，停止弹奏，两人四目相对",
+          "dialogue": "卡洛斯：你喜欢这首歌吗？",
+          "sound_effects": "音乐停止，只有海浪声",
+          "style_notes": "初见时的心动瞬间，时间仿佛静止"
+        },
+        {
+          "frame_number": 10,
+          "visual_description": "索菲亚害羞地点头，卡洛斯温暖地微笑",
+          "dialogue": "索菲亚：很美...你是专业音乐家吗？",
+          "sound_effects": "",
+          "style_notes": "害羞而甜蜜的初次对话，温暖的微笑"
+        }
+      ]
+    },
+    {
+      "panel_number": 5,
+      "layout_type": "3格布局",
+      "layout_description": "两人开始了解彼此",
+      "frames": [
+        {
+          "frame_number": 11,
+          "visual_description": "卡洛斯介绍自己是当地音乐家，索菲亚分享她的艺术梦想",
+          "dialogue": "卡洛斯：我在这里长大，音乐是我的生命",
+          "sound_effects": "",
+          "style_notes": "真诚的自我介绍，开放的肢体语言"
+        },
+        {
+          "frame_number": 12,
+          "visual_description": "索菲亚展示她的画作，卡洛斯惊叹于她的才华",
+          "dialogue": "索菲亚：我想用画笔捕捉这里的美丽",
+          "sound_effects": "",
+          "style_notes": "艺术作品的展示，欣赏的眼神"
+        },
+        {
+          "frame_number": 13,
+          "visual_description": "两人坐在沙滩上聊天，夕阳开始西下",
+          "dialogue": "卡洛斯：也许我可以为你的画配上音乐？",
+          "sound_effects": "轻柔的海风声",
+          "style_notes": "浪漫的夕阳时光，两人越来越亲近"
+        }
+      ]
+    },
+    {
+      "panel_number": 6,
+      "layout_type": "2格布局",
+      "layout_description": "第一次约会的浪漫时光",
+      "frames": [
+        {
+          "frame_number": 14,
+          "visual_description": "第二天，卡洛斯带索菲亚游览小哈瓦那，品尝古巴咖啡",
+          "dialogue": "卡洛斯：这是我们的文化，希望你喜欢",
+          "sound_effects": "街头音乐，咖啡机声音",
+          "style_notes": "丰富的拉丁文化氛围，色彩鲜艳的街景"
+        },
+        {
+          "frame_number": 15,
+          "visual_description": "晚上，两人在海滩餐厅共进晚餐，烛光摇曳",
+          "dialogue": "索菲亚：我从没想过会在这里遇到这样的人",
+          "sound_effects": "轻柔的餐厅音乐，海浪声",
+          "style_notes": "浪漫的烛光晚餐，温馨的氛围"
+        }
+      ]
+    },
+    {
+      "panel_number": 7,
+      "layout_type": "3格布局",
+      "layout_description": "爱情的深化和艺术的融合",
+      "frames": [
+        {
+          "frame_number": 16,
+          "visual_description": "卡洛斯为索菲亚弹奏专门创作的曲子，索菲亚感动得流泪",
+          "dialogue": "卡洛斯：这首歌叫《索菲亚的眼睛》",
+          "sound_effects": "深情的吉他声",
+          "style_notes": "深情的音乐表演，感动的泪水"
+        },
+        {
+          "frame_number": 17,
+          "visual_description": "索菲亚画了一幅卡洛斯弹吉他的画像作为回礼",
+          "dialogue": "索菲亚：这是我心中的你",
+          "sound_effects": "",
+          "style_notes": "艺术作品中的爱意，真挚的情感表达"
+        },
+        {
+          "frame_number": 18,
+          "visual_description": "两人在月光下的海滩上拥抱，海浪轻抚脚踝",
+          "dialogue": "（无对话，只有拥抱）",
+          "sound_effects": "轻柔的海浪声，夜风声",
+          "style_notes": "月光下的浪漫拥抱，诗意的画面"
+        }
+      ]
+    },
+    {
+      "panel_number": 8,
+      "layout_type": "2格布局",
+      "layout_description": "面临分离的痛苦",
+      "frames": [
+        {
+          "frame_number": 19,
+          "visual_description": "索菲亚收到学校的电话，春假即将结束，必须回去",
+          "dialogue": "电话：索菲亚，记得明天的航班...",
+          "sound_effects": "电话铃声",
+          "style_notes": "现实的打击，不舍的表情"
+        },
+        {
+          "frame_number": 20,
+          "visual_description": "两人坐在海滩上，看着夕阳，都很沉默",
+          "dialogue": "卡洛斯：时间过得真快...",
+          "sound_effects": "海浪声，海鸥叫声",
+          "style_notes": "离别前的沉默，不舍的氛围"
+        }
+      ]
+    },
+    {
+      "panel_number": 9,
+      "layout_type": "3格布局",
+      "layout_description": "告别和承诺",
+      "frames": [
+        {
+          "frame_number": 21,
+          "visual_description": "在机场，两人紧紧拥抱，不愿分开",
+          "dialogue": "索菲亚：我会回来的，我保证",
+          "sound_effects": "机场广播声",
+          "style_notes": "深情的告别拥抱，眼中含泪"
+        },
+        {
+          "frame_number": 22,
+          "visual_description": "卡洛斯给索菲亚一个贝壳项链，索菲亚给他一幅小画",
+          "dialogue": "卡洛斯：这样你就能听到海的声音",
+          "sound_effects": "",
+          "style_notes": "交换信物的温馨时刻"
+        },
+        {
+          "frame_number": 23,
+          "visual_description": "索菲亚透过飞机窗户最后看一眼迈阿密海滩",
+          "dialogue": "（内心独白）我一定会回来的...",
+          "sound_effects": "飞机起飞声",
+          "style_notes": "离别的不舍，透过窗户的最后一瞥"
+        }
+      ]
+    },
+    {
+      "panel_number": 10,
+      "layout_type": "3格布局",
+      "layout_description": "爱情的重逢和永恒",
+      "frames": [
+        {
+          "frame_number": 24,
+          "visual_description": "三个月后，索菲亚完成学业，再次来到迈阿密海滩",
+          "dialogue": "索菲亚：我回来了！",
+          "sound_effects": "海浪声",
+          "style_notes": "兴奋的回归，熟悉的海滩场景"
+        },
+        {
+          "frame_number": 25,
+          "visual_description": "卡洛斯还在老地方弹吉他，听到熟悉的声音回头",
+          "dialogue": "卡洛斯：索菲亚？！",
+          "sound_effects": "吉他声戛然而止",
+          "style_notes": "惊喜的重逢瞬间，不敢置信的表情"
+        },
+        {
+          "frame_number": 26,
+          "visual_description": "两人在夕阳下重新拥抱，这次是永远不分离的拥抱",
+          "dialogue": "索菲亚：这次我不走了，我要在这里开画展",
+          "sound_effects": "海浪声，海鸥叫声，远处的音乐",
+          "style_notes": "完美的重逢结局，夕阳下的永恒拥抱，爱情的胜利"
+        }
+      ]
+    }
+  ]
+}
