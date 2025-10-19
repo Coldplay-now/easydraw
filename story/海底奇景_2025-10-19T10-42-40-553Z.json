@@ -1,0 +1,210 @@
+{
+  "story_title": "海底奇景",
+  "cover": {
+    "title_text": "海底奇景",
+    "title_style": "蓝色渐变艺术字，带有气泡和波纹效果，字体圆润活泼",
+    "visual_description": "阳光透过碧蓝海水形成光束，中央是一只巨大的彩色珊瑚，周围环绕着发光水母、条纹鱼、海龟等生物，底部是沙地和贝壳",
+    "main_character": "一只身体透明、带有彩虹斑点的奇特鱼，位于画面中心偏上",
+    "key_elements": "阳光光束、彩色珊瑚、发光水母、条纹鱼、海龟、气泡、沙地贝壳",
+    "style_notes": "明亮卡通风格，色彩饱和度高，线条圆润，光影柔和",
+    "color_scheme": "碧蓝、翠绿、橙黄、粉红、白色",
+    "composition": "中心聚焦彩色珊瑚和奇特鱼，四周环绕其他生物，阳光光束从顶部斜射，营造深度感"
+  },
+  "total_panels": 10,
+  "total_frames": 10,
+  "total_images": 11,
+  "panels": [
+    {
+      "panel_number": 1,
+      "layout_type": "1格布局",
+      "layout_description": "整体海底景观展示，引入场景",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "阳光穿透海面，照亮整个海底，珊瑚礁群错落有致，各种鱼类穿梭其中，气泡缓缓上升",
+          "dialogue": "这里就是神秘的海底世界啊...",
+          "sound_effects": "咕噜咕噜",
+          "style_notes": "明亮卡通风格，色彩鲜艳，光影层次分明"
+        }
+      ]
+    },
+    {
+      "panel_number": 2,
+      "layout_type": "1格布局",
+      "layout_description": "特写发光水母群",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "一群半透明的发光水母，身体发出柔和的蓝绿色光芒，触手随水流摆动",
+          "dialogue": "看这些水母，像会发光的伞！",
+          "sound_effects": "飘~",
+          "style_notes": "高光处理水母的透明感，背景模糊突出主体"
+        }
+      ]
+    },
+    {
+      "panel_number": 3,
+      "layout_type": "1格布局",
+      "layout_description": "特写奇特的彩虹斑点鱼",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "彩虹斑点鱼的近景，身体透明可见内部结构，斑点发出彩虹色光芒，周围有小磷虾游动",
+          "dialogue": "这条鱼的斑点居然会变色！",
+          "sound_effects": "嗖",
+          "style_notes": "细节刻画鱼的透明质感和发光斑点"
+        }
+      ]
+    },
+    {
+      "panel_number": 4,
+      "layout_type": "1格布局",
+      "layout_description": "展示珊瑚礁上的共生生物",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "红色珊瑚礁上附着着橙色海星、紫色海葵和绿色海藻，一只小丑鱼躲在海葵里",
+          "dialogue": "珊瑚礁是很多生物的家园呢",
+          "sound_effects": "沙沙",
+          "style_notes": "色彩对比强烈，突出共生关系"
+        }
+      ]
+    },
+    {
+      "panel_number": 5,
+      "layout_type": "1格布局",
+      "layout_description": "特写巨大的海龟",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "一只巨大的绿海龟缓慢游动，背甲上附着着小贝壳和海藻，眼神温和",
+          "dialogue": "海龟爷爷，您在这里生活多久了？",
+          "sound_effects": "哗啦",
+          "style_notes": "写实与卡通结合，突出海龟的庞大和温和"
+        }
+      ]
+    },
+    {
+      "panel_number": 6,
+      "layout_type": "1格布局",
+      "layout_description": "展示深海发光生物",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "深海区域，光线昏暗，几只身体发光的小鱼和虾类游动，周围有发光的浮游生物",
+          "dialogue": "原来深海也有这么多发光生物！",
+          "sound_effects": "咕噜",
+          "style_notes": "低饱和度背景，突出生物的发光效果"
+        }
+      ]
+    },
+    {
+      "panel_number": 7,
+      "layout_type": "1格布局",
+      "layout_description": "特写奇特的章鱼",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "一只彩色章鱼，身体不断变换颜色，触手缠绕着珊瑚，眼睛好奇地看着前方",
+          "dialogue": "章鱼的颜色变化好神奇！",
+          "sound_effects": "噗",
+          "style_notes": "细腻刻画章鱼的皮肤纹理和颜色渐变"
+        }
+      ]
+    },
+    {
+      "panel_number": 8,
+      "layout_type": "1格布局",
+      "layout_description": "展示海底植物景观",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "大片的海草随水流摆动，周围有小鱼穿梭，底部是沙地和贝壳",
+          "dialogue": "海草森林像海底的草原一样",
+          "sound_effects": "沙沙",
+          "style_notes": "动态线条表现海草的摆动"
+        }
+      ]
+    },
+    {
+      "panel_number": 9,
+      "layout_type": "1格布局",
+      "layout_description": "特写透明的水母群",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "一群透明水母，伞状身体带有淡粉色边缘，触手细长，在水中漂浮",
+          "dialogue": "水母看起来好优雅啊",
+          "sound_effects": "飘~",
+          "style_notes": "轻盈的线条，半透明效果"
+        }
+      ]
+    },
+    {
+      "panel_number": 10,
+      "layout_type": "1格布局",
+      "layout_description": "整体海底全景，夕阳透过水面，所有生物和谐共存",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "夕阳的橙色光芒透过水面，整个海底被染上温暖色调，各种生物在珊瑚礁周围游动，气泡缓缓上升",
+          "dialogue": "海底世界真是充满奇迹！",
+          "sound_effects": "咕噜咕噜",
+          "style_notes": "温暖色调，整体和谐的画面"
+        }
+      ]
+    }
+  ],
+  "storyboard": [
+    {
+      "scene_number": 1,
+      "description": "阳光穿透海面，照亮整个海底，珊瑚礁群错落有致，各种鱼类穿梭其中，气泡缓缓上升",
+      "visual_elements": "阳光穿透海面，照亮整个海底，珊瑚礁群错落有致，各种鱼类穿梭其中，气泡缓缓上升 这里就是神秘的海底世界啊... 咕噜咕噜 明亮卡通风格，色彩鲜艳，光影层次分明"
+    },
+    {
+      "scene_number": 2,
+      "description": "一群半透明的发光水母，身体发出柔和的蓝绿色光芒，触手随水流摆动",
+      "visual_elements": "一群半透明的发光水母，身体发出柔和的蓝绿色光芒，触手随水流摆动 看这些水母，像会发光的伞！ 飘~ 高光处理水母的透明感，背景模糊突出主体"
+    },
+    {
+      "scene_number": 3,
+      "description": "彩虹斑点鱼的近景，身体透明可见内部结构，斑点发出彩虹色光芒，周围有小磷虾游动",
+      "visual_elements": "彩虹斑点鱼的近景，身体透明可见内部结构，斑点发出彩虹色光芒，周围有小磷虾游动 这条鱼的斑点居然会变色！ 嗖 细节刻画鱼的透明质感和发光斑点"
+    },
+    {
+      "scene_number": 4,
+      "description": "红色珊瑚礁上附着着橙色海星、紫色海葵和绿色海藻，一只小丑鱼躲在海葵里",
+      "visual_elements": "红色珊瑚礁上附着着橙色海星、紫色海葵和绿色海藻，一只小丑鱼躲在海葵里 珊瑚礁是很多生物的家园呢 沙沙 色彩对比强烈，突出共生关系"
+    },
+    {
+      "scene_number": 5,
+      "description": "一只巨大的绿海龟缓慢游动，背甲上附着着小贝壳和海藻，眼神温和",
+      "visual_elements": "一只巨大的绿海龟缓慢游动，背甲上附着着小贝壳和海藻，眼神温和 海龟爷爷，您在这里生活多久了？ 哗啦 写实与卡通结合，突出海龟的庞大和温和"
+    },
+    {
+      "scene_number": 6,
+      "description": "深海区域，光线昏暗，几只身体发光的小鱼和虾类游动，周围有发光的浮游生物",
+      "visual_elements": "深海区域，光线昏暗，几只身体发光的小鱼和虾类游动，周围有发光的浮游生物 原来深海也有这么多发光生物！ 咕噜 低饱和度背景，突出生物的发光效果"
+    },
+    {
+      "scene_number": 7,
+      "description": "一只彩色章鱼，身体不断变换颜色，触手缠绕着珊瑚，眼睛好奇地看着前方",
+      "visual_elements": "一只彩色章鱼，身体不断变换颜色，触手缠绕着珊瑚，眼睛好奇地看着前方 章鱼的颜色变化好神奇！ 噗 细腻刻画章鱼的皮肤纹理和颜色渐变"
+    },
+    {
+      "scene_number": 8,
+      "description": "大片的海草随水流摆动，周围有小鱼穿梭，底部是沙地和贝壳",
+      "visual_elements": "大片的海草随水流摆动，周围有小鱼穿梭，底部是沙地和贝壳 海草森林像海底的草原一样 沙沙 动态线条表现海草的摆动"
+    },
+    {
+      "scene_number": 9,
+      "description": "一群透明水母，伞状身体带有淡粉色边缘，触手细长，在水中漂浮",
+      "visual_elements": "一群透明水母，伞状身体带有淡粉色边缘，触手细长，在水中漂浮 水母看起来好优雅啊 飘~ 轻盈的线条，半透明效果"
+    },
+    {
+      "scene_number": 10,
+      "description": "夕阳的橙色光芒透过水面，整个海底被染上温暖色调，各种生物在珊瑚礁周围游动，气泡缓缓上升",
+      "visual_elements": "夕阳的橙色光芒透过水面，整个海底被染上温暖色调，各种生物在珊瑚礁周围游动，气泡缓缓上升 海底世界真是充满奇迹！ 咕噜咕噜 温暖色调，整体和谐的画面"
+    }
+  ]
+}

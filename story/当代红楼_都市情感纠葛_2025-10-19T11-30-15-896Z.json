@@ -1,0 +1,329 @@
+{
+  "story_title": "当代红楼：都市情感纠葛",
+  "cover": {
+    "title_text": "当代红楼：都市情感纠葛",
+    "title_style": "现代艺术字结合书法笔触，金色渐变效果，兼具都市感与古典韵味",
+    "visual_description": "繁华都市夜景背景，贾宝小玉（白色中式改良西装）、林黛儿（淡蓝文艺连衣裙）、Mike（深色精英西装）三人站在玻璃幕墙前，灯光映照下形成微妙三角关系，玻璃倒影中隐约可见古典玉佩与现代手机的交融",
+    "main_character": "贾宝小玉姿态优雅，林黛儿神情温柔，Mike自信从容，三人眼神交错传递复杂情感",
+    "key_elements": "玻璃幕墙倒影、都市霓虹、咖啡杯、智能手机、中式玉佩（贾宝小玉佩戴）",
+    "style_notes": "现代都市风格，明亮色彩对比，细腻光影处理，人物线条流畅自然",
+    "color_scheme": "深蓝都市背景、金色标题、白色/淡蓝/深色人物服装、暖黄灯光点缀",
+    "composition": "三人位于画面中心形成三角构图，标题在上部占据视觉焦点，背景延伸至远方增强空间纵深感"
+  },
+  "total_panels": 10,
+  "total_frames": 27,
+  "total_images": 11,
+  "panels": [
+    {
+      "panel_number": 1,
+      "layout_type": "3格布局",
+      "layout_description": "引入三位主角的当代生活场景",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "贾宝小玉在现代艺术画廊欣赏画作，手指轻触下巴，背景是抽象艺术作品",
+          "dialogue": "这画展的现代感里，藏着古典的灵魂...",
+          "sound_effects": "",
+          "style_notes": "明亮画廊光线，简洁现代构图"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "林黛儿在咖啡馆窗边看书，阳光透过玻璃窗洒在书页上",
+          "dialogue": "今天的拿铁，格外有故事的味道...",
+          "sound_effects": "咖啡杯轻碰声",
+          "style_notes": "暖色调文艺风格，柔和光影处理"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "Mike在摩天大楼办公室看文件，窗外是繁华都市景观",
+          "dialogue": "这个项目，必须完美收官...",
+          "sound_effects": "键盘敲击声",
+          "style_notes": "冷色调商务风格，锐利线条感"
+        }
+      ]
+    },
+    {
+      "panel_number": 2,
+      "layout_type": "2格布局",
+      "layout_description": "贾宝小玉与林黛儿的重逢场景",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "画廊门口，贾宝小玉看到林黛儿，眼神惊喜",
+          "dialogue": "黛儿？好久不见！",
+          "sound_effects": "惊喜的吸气声",
+          "style_notes": "特写镜头突出表情变化"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "两人拥抱，阳光洒在身上",
+          "dialogue": "小玉，你还是这么懂艺术...",
+          "sound_effects": "轻柔的背景音乐",
+          "style_notes": "温暖色调，柔和线条"
+        }
+      ]
+    },
+    {
+      "panel_number": 3,
+      "layout_type": "4格布局",
+      "layout_description": "三人首次相遇的完整叙事",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "高端派对现场，贾宝小玉拉着林黛儿走向Mike",
+          "dialogue": "黛儿，介绍一下，这是我的朋友Mike，派对主人",
+          "sound_effects": "派对音乐声",
+          "style_notes": "华丽派对场景，多彩灯光"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "Mike递酒给林黛儿，微笑示意",
+          "dialogue": "林小姐，很高兴认识你，你的气质很特别",
+          "sound_effects": "酒杯碰撞声",
+          "style_notes": "特写人物互动细节"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "贾宝小玉看着两人，眼神中闪过一丝复杂",
+          "dialogue": "",
+          "sound_effects": "",
+          "style_notes": "侧面视角突出人物心理活动"
+        },
+        {
+          "frame_number": 4,
+          "visual_description": "三人举杯，灯光在酒杯上折射出光芒",
+          "dialogue": "为美好的相遇干杯！",
+          "sound_effects": "碰杯声",
+          "style_notes": "俯视角度，营造氛围"
+        }
+      ]
+    },
+    {
+      "panel_number": 4,
+      "layout_type": "1格布局",
+      "layout_description": "关键情感瞬间的视觉强调",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "贾宝小玉站在角落，看着Mike和林黛儿在派对上相谈甚欢，背景虚化",
+          "dialogue": "",
+          "sound_effects": "心跳声",
+          "style_notes": "高对比度特写，突出人物失落表情"
+        }
+      ]
+    },
+    {
+      "panel_number": 5,
+      "layout_type": "3格布局",
+      "layout_description": "情感冲突的逐步升级",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "贾宝小玉找Mike单独谈话，表情严肃",
+          "dialogue": "Mike，你对黛儿是什么意思？",
+          "sound_effects": "",
+          "style_notes": "紧张氛围，冷色调处理"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "Mike微笑，眼神坦然",
+          "dialogue": "小玉，我只是欣赏林小姐的才华，别多想",
+          "sound_effects": "",
+          "style_notes": "商务精英风格，自信姿态"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "贾宝小玉皱眉，握紧拳头",
+          "dialogue": "我不信...你们之间的眼神不对劲",
+          "sound_effects": "拳头握紧声",
+          "style_notes": "情绪爆发前的压抑感"
+        }
+      ]
+    },
+    {
+      "panel_number": 6,
+      "layout_type": "2格布局",
+      "layout_description": "贾宝小玉与林黛儿的情感对话",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "公园长椅上，林黛儿看着贾宝小玉，眼神温柔",
+          "dialogue": "小玉，你别误会，我和Mike只是朋友",
+          "sound_effects": "风声",
+          "style_notes": "自然光线，温馨氛围"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "贾宝小玉低头，手指轻抚玉佩",
+          "dialogue": "我只是...怕失去你这个最重要的朋友",
+          "sound_effects": "",
+          "style_notes": "特写玉佩细节，象征情感纽带"
+        }
+      ]
+    },
+    {
+      "panel_number": 7,
+      "layout_type": "4格布局",
+      "layout_description": "情感发展的多面展示",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "Mike送林黛儿回家，在楼下告别",
+          "dialogue": "林小姐，明天的艺术展，一起去吗？",
+          "sound_effects": "脚步声",
+          "style_notes": "夜晚街景，暖黄路灯"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "林黛儿进门后叹气，靠在门上",
+          "dialogue": "为什么事情会变得这么复杂...",
+          "sound_effects": "叹气声",
+          "style_notes": "室内暖光，人物内心挣扎"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "贾宝小玉在远处看着，表情落寞",
+          "dialogue": "",
+          "sound_effects": "",
+          "style_notes": "远景视角，人物渺小感"
+        },
+        {
+          "frame_number": 4,
+          "visual_description": "林黛儿的手机亮起，是贾宝小玉的信息：明天咖啡馆见",
+          "dialogue": "",
+          "sound_effects": "手机提示音",
+          "style_notes": "特写手机屏幕，希望的信号"
+        }
+      ]
+    },
+    {
+      "panel_number": 8,
+      "layout_type": "1格布局",
+      "layout_description": "情感高潮的视觉冲击",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "咖啡馆内，林黛儿拿出贾宝小玉送的玉佩，放在桌上",
+          "dialogue": "小玉，这玉佩我一直戴着，它对我很重要",
+          "sound_effects": "玉佩轻放桌面声",
+          "style_notes": "高亮度特写，情感爆发点"
+        }
+      ]
+    },
+    {
+      "panel_number": 9,
+      "layout_type": "3格布局",
+      "layout_description": "情感转折的关键节点",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "Mike突然出现，看到玉佩，眼神变化",
+          "dialogue": "这玉佩...很特别",
+          "sound_effects": "",
+          "style_notes": "意外相遇的紧张感"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "贾宝小玉握住林黛儿的手，眼神坚定",
+          "dialogue": "黛儿，我不想再隐藏我的心意了",
+          "sound_effects": "心跳声",
+          "style_notes": "人物情感的直接表达"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "林黛儿看着两人，眼神犹豫",
+          "dialogue": "",
+          "sound_effects": "",
+          "style_notes": "人物内心的抉择时刻"
+        }
+      ]
+    },
+    {
+      "panel_number": 10,
+      "layout_type": "4格布局",
+      "layout_description": "情感纠葛的阶段性结局",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "三人站在天桥上，俯瞰都市夜景",
+          "dialogue": "",
+          "sound_effects": "风声",
+          "style_notes": "广阔视角，象征未来的可能性"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "Mike微笑点头，转身离开",
+          "dialogue": "我明白了，祝你们幸福",
+          "sound_effects": "脚步声渐远",
+          "style_notes": "人物释然的姿态"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "贾宝小玉和林黛儿相视一笑，手牵手",
+          "dialogue": "黛儿，谢谢你",
+          "sound_effects": "",
+          "style_notes": "温馨氛围，人物情感的确认"
+        },
+        {
+          "frame_number": 4,
+          "visual_description": "远处烟花绽放，照亮夜空",
+          "dialogue": "未来的路，我们一起走",
+          "sound_effects": "烟花爆炸声",
+          "style_notes": "浪漫结局，希望的象征"
+        }
+      ]
+    }
+  ],
+  "storyboard": [
+    {
+      "scene_number": 1,
+      "description": "贾宝小玉在现代艺术画廊欣赏画作，手指轻触下巴，背景是抽象艺术作品",
+      "visual_elements": "贾宝小玉在现代艺术画廊欣赏画作，手指轻触下巴，背景是抽象艺术作品 这画展的现代感里，藏着古典的灵魂...  明亮画廊光线，简洁现代构图"
+    },
+    {
+      "scene_number": 2,
+      "description": "画廊门口，贾宝小玉看到林黛儿，眼神惊喜",
+      "visual_elements": "画廊门口，贾宝小玉看到林黛儿，眼神惊喜 黛儿？好久不见！ 惊喜的吸气声 特写镜头突出表情变化"
+    },
+    {
+      "scene_number": 3,
+      "description": "高端派对现场，贾宝小玉拉着林黛儿走向Mike",
+      "visual_elements": "高端派对现场，贾宝小玉拉着林黛儿走向Mike 黛儿，介绍一下，这是我的朋友Mike，派对主人 派对音乐声 华丽派对场景，多彩灯光"
+    },
+    {
+      "scene_number": 4,
+      "description": "贾宝小玉站在角落，看着Mike和林黛儿在派对上相谈甚欢，背景虚化",
+      "visual_elements": "贾宝小玉站在角落，看着Mike和林黛儿在派对上相谈甚欢，背景虚化  心跳声 高对比度特写，突出人物失落表情"
+    },
+    {
+      "scene_number": 5,
+      "description": "贾宝小玉找Mike单独谈话，表情严肃",
+      "visual_elements": "贾宝小玉找Mike单独谈话，表情严肃 Mike，你对黛儿是什么意思？  紧张氛围，冷色调处理"
+    },
+    {
+      "scene_number": 6,
+      "description": "公园长椅上，林黛儿看着贾宝小玉，眼神温柔",
+      "visual_elements": "公园长椅上，林黛儿看着贾宝小玉，眼神温柔 小玉，你别误会，我和Mike只是朋友 风声 自然光线，温馨氛围"
+    },
+    {
+      "scene_number": 7,
+      "description": "Mike送林黛儿回家，在楼下告别",
+      "visual_elements": "Mike送林黛儿回家，在楼下告别 林小姐，明天的艺术展，一起去吗？ 脚步声 夜晚街景，暖黄路灯"
+    },
+    {
+      "scene_number": 8,
+      "description": "咖啡馆内，林黛儿拿出贾宝小玉送的玉佩，放在桌上",
+      "visual_elements": "咖啡馆内，林黛儿拿出贾宝小玉送的玉佩，放在桌上 小玉，这玉佩我一直戴着，它对我很重要 玉佩轻放桌面声 高亮度特写，情感爆发点"
+    },
+    {
+      "scene_number": 9,
+      "description": "Mike突然出现，看到玉佩，眼神变化",
+      "visual_elements": "Mike突然出现，看到玉佩，眼神变化 这玉佩...很特别  意外相遇的紧张感"
+    },
+    {
+      "scene_number": 10,
+      "description": "三人站在天桥上，俯瞰都市夜景",
+      "visual_elements": "三人站在天桥上，俯瞰都市夜景  风声 广阔视角，象征未来的可能性"
+    }
+  ]
+}

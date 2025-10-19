@@ -1,0 +1,158 @@
+{
+  "story_title": "莫比斯风格：建筑师之梦",
+  "cover": {
+    "title_text": "建筑师之梦",
+    "title_style": "未来主义几何字体，带有金属光泽和透明效果，线条流畅而富有机械感",
+    "visual_description": "建筑师站在悬浮的观景平台上，背景是宏伟的未来都市全景，巨大的几何建筑群悬浮在空中，透明的管道连接着各建筑，空中漂浮着数据流和全息投影",
+    "main_character": "建筑师身穿银色未来主义服装，手持全息设计板，凝视远方，表情充满创造激情",
+    "key_elements": "悬浮建筑、全息设计图、几何结构、透明材料、数据流、未来都市景观",
+    "style_notes": "莫比斯标志性的精细线条、复杂的几何图案、超现实建筑、金属质感、透明效果",
+    "color_scheme": "银灰、深蓝、金属铜色、透明青绿、数据流荧光色",
+    "composition": "建筑师位于前景右下角，视线引导向宏伟的建筑群，标题悬浮在左上角"
+  },
+  "total_panels": 10,
+  "total_frames": 10,
+  "total_images": 11,
+  "panels": [
+    {
+      "panel_number": 1,
+      "layout_type": "1格布局",
+      "layout_description": "引入主角和核心概念",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "特写：建筑师的手在全息设计板上绘制，手指间流淌着发光的数据流，设计板上显示复杂的建筑结构图",
+          "dialogue": "每个线条都是梦想的延伸...",
+          "sound_effects": "数据流动的细微电子音",
+          "style_notes": "精细的手部特写，数据流发光效果，莫比斯式复杂线条"
+        }
+      ]
+    },
+    {
+      "panel_number": 2,
+      "layout_type": "1格布局",
+      "layout_description": "展示建筑师的创作环境",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "广角：建筑师的工作室，悬浮的设计台，周围环绕着多个全息投影，墙上挂满设计草图，窗外是未来都市",
+          "dialogue": "这里是我的宇宙画布...",
+          "sound_effects": "设备运转的低频嗡鸣",
+          "style_notes": "复杂的室内细节，多层次空间，透视感强烈"
+        }
+      ]
+    },
+    {
+      "panel_number": 3,
+      "layout_type": "1格布局",
+      "layout_description": "第一个建筑构想",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "宏伟的悬浮图书馆设计，透明的螺旋结构，内部可见漂浮的书本和数据流，外部有精细的金属框架",
+          "dialogue": "知识应该自由流动，如同思想...",
+          "sound_effects": "书本翻页的幻听",
+          "style_notes": "透明材质表现，复杂的几何结构，光影交错"
+        }
+      ]
+    },
+    {
+      "panel_number": 4,
+      "layout_type": "1格布局",
+      "layout_description": "第二个建筑构想",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "生物形态的音乐厅，像巨大的贝壳，内部有发光的声音波纹，外部有流动的光带",
+          "dialogue": "建筑应该歌唱，而不仅仅是存在...",
+          "sound_effects": "想象中的音乐旋律",
+          "style_notes": "有机形态与几何结合，流动的光效，莫比斯式生物机械感"
+        }
+      ]
+    },
+    {
+      "panel_number": 5,
+      "layout_type": "1格布局",
+      "layout_description": "第三个建筑构想",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "垂直花园城市，建筑表面覆盖发光植物，空中走廊连接各个楼层，居民在空中漫步",
+          "dialogue": "自然与科技的完美共生...",
+          "sound_effects": "植物生长的细微声音",
+          "style_notes": "生态与科技融合，发光植物细节，多层次垂直结构"
+        }
+      ]
+    },
+    {
+      "panel_number": 6,
+      "layout_type": "1格布局",
+      "layout_description": "建筑细节特写",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "极精细的特写：建筑连接处的机械结构，齿轮、管道和发光线路的复杂组合",
+          "dialogue": "每个连接都是精密的舞蹈...",
+          "sound_effects": "机械运转的精确滴答声",
+          "style_notes": "超精细机械细节，复杂的内部结构，工业美学"
+        }
+      ]
+    },
+    {
+      "panel_number": 7,
+      "layout_type": "1格布局",
+      "layout_description": "建筑内部空间",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "建筑内部全景，无限延伸的空间，悬浮的家具，全息界面，居民以反重力方式移动",
+          "dialogue": "空间应该解放，而不是限制...",
+          "sound_effects": "反重力设备的柔和嗡鸣",
+          "style_notes": "无限空间感，超现实室内设计，透视魔法"
+        }
+      ]
+    },
+    {
+      "panel_number": 8,
+      "layout_type": "1格布局",
+      "layout_description": "城市全景展示",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "鸟瞰整个建筑师设计的未来都市，各种风格的建筑和谐共存，空中交通流线，能量网络",
+          "dialogue": "这是我的梦想之城...",
+          "sound_effects": "城市运转的宏大交响",
+          "style_notes": "宏伟的全景，复杂的城市布局，细节丰富的鸟瞰图"
+        }
+      ]
+    },
+    {
+      "panel_number": 9,
+      "layout_type": "1格布局",
+      "layout_description": "建筑师的情感时刻",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "建筑师站在建成建筑的顶端，伸手触摸天空，背后是绚丽的日落和初升的星星",
+          "dialogue": "我们建造的不是建筑，而是未来的记忆...",
+          "sound_effects": "风声和遥远的城市声音",
+          "style_notes": "情感强烈的构图，戏剧性的光影，诗意的氛围"
+        }
+      ]
+    },
+    {
+      "panel_number": 10,
+      "layout_type": "1格布局",
+      "layout_description": "开放式结局",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "建筑师走向新的空白全息画板，背后是已实现的建筑，面前是无限的创作可能性",
+          "dialogue": "下一个梦想，正在等待被绘制...",
+          "sound_effects": "创作灵感的细微波动",
+          "style_notes": "希望与未来的象征，开放式构图，莫比斯式的哲学思考"
+        }
+      ]
+    }
+  ]
+}

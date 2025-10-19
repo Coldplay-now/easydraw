@@ -1,0 +1,294 @@
+{
+  "story_title": "老人与海",
+  "cover": {
+    "title_text": "老人与海",
+    "title_style": "深蓝色粗体艺术字，带有海浪纹理，边缘金色勾勒，体现海洋壮阔与坚韧",
+    "visual_description": "广阔无垠的蓝色大海上，老人圣地亚哥独自坐在小船上，身体前倾紧握鱼线，目光坚定望向远方，夕阳余晖洒在布满皱纹的脸和海面上形成金色光晕",
+    "main_character": "老人身穿破旧白衬衫蓝裤子，皮肤黝黑皱纹密布，眼神不屈，握鱼线的手布满老茧",
+    "key_elements": "小船、鱼线、广阔大海、夕阳、老人坚毅表情",
+    "style_notes": "写实风格，蓝金为主色调，营造海洋辽阔与温暖氛围",
+    "color_scheme": "深蓝、浅蓝、金色、白色、黑色",
+    "composition": "老人位于画面中心偏下占三分之一，上方是天空大海，标题顶部中央突出主题"
+  },
+  "total_panels": 10,
+  "total_frames": 22,
+  "total_images": 11,
+  "panels": [
+    {
+      "panel_number": 1,
+      "layout_type": "3格布局",
+      "layout_description": "引入老人背景与出海决心",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "老人小屋内，墙上挂破旧渔网鱼叉，桌上简单食物，老人坐床边看窗外大海，表情平静坚定",
+          "dialogue": "第85天了...今天一定会有收获",
+          "sound_effects": "海风呼啸声",
+          "style_notes": "写实暖色调，突出孤独与坚韧"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "老人整理渔网鱼叉，背上渔具走出小屋",
+          "dialogue": "出发吧，老伙计",
+          "sound_effects": "门吱呀声",
+          "style_notes": "中景镜头展现动作"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "老人推小船入海准备扬帆",
+          "dialogue": "大海，我来了",
+          "sound_effects": "海浪拍打声",
+          "style_notes": "远景镜头对比老人与大海"
+        }
+      ]
+    },
+    {
+      "panel_number": 2,
+      "layout_type": "1格布局",
+      "layout_description": "强调出海后的孤独感",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "广阔大海上老人小船如叶子漂浮，四周只有蓝海水天空，远处无船只",
+          "dialogue": "（内心独白）孤独...但我不害怕",
+          "sound_effects": "海鸥鸣叫声",
+          "style_notes": "全景镜头突出海洋辽阔与老人渺小"
+        }
+      ]
+    },
+    {
+      "panel_number": 3,
+      "layout_type": "2格布局",
+      "layout_description": "发现鱼的迹象",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "老人低头看水面发现鱼群游动痕迹，眼睛一亮",
+          "dialogue": "哦？有动静...",
+          "sound_effects": "水波声",
+          "style_notes": "特写老人眼睛与水面鱼群"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "老人迅速放下鱼线紧握等待上钩",
+          "dialogue": "来吧...上钩吧...",
+          "sound_effects": "鱼线滑动声",
+          "style_notes": "中景镜头展现专注表情"
+        }
+      ]
+    },
+    {
+      "panel_number": 4,
+      "layout_type": "3格布局",
+      "layout_description": "搏斗开始",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "鱼线突然绷紧，老人身体后仰紧拉鱼线",
+          "dialogue": "好大的力气！",
+          "sound_effects": "鱼线紧绷声",
+          "style_notes": "动态镜头表现力量对抗"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "老人手被鱼线勒红，脸上痛苦却坚定",
+          "dialogue": "我不会放弃的...",
+          "sound_effects": "呼吸声",
+          "style_notes": "特写手与脸"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "小船被鱼拉着移动，老人紧抓船舷",
+          "dialogue": "你想带我去哪里？",
+          "sound_effects": "船身摇晃声",
+          "style_notes": "远景镜头展现快速移动"
+        }
+      ]
+    },
+    {
+      "panel_number": 5,
+      "layout_type": "1格布局",
+      "layout_description": "搏斗高潮瞬间",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "老人站船上后仰用尽全身力气拉鱼线，马林鱼巨大身影水下隐约可见，夕阳照在老人和鱼身上",
+          "dialogue": "（大喊）我不会输给你的！",
+          "sound_effects": "海浪声、喊叫声",
+          "style_notes": "大特写突出决心与马林鱼巨大"
+        }
+      ]
+    },
+    {
+      "panel_number": 6,
+      "layout_type": "4格布局",
+      "layout_description": "鲨鱼袭击过程",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "马林鱼血染红海水，远处鲨鱼快速游来",
+          "dialogue": "不好！鲨鱼来了！",
+          "sound_effects": "鲨鱼游动声",
+          "style_notes": "全景镜头展现逼近"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "鲨鱼咬住马林鱼身体，老人拿起鱼叉准备攻击",
+          "dialogue": "滚开！",
+          "sound_effects": "鲨鱼咬食声",
+          "style_notes": "中景镜头展现动作"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "老人用力刺鱼叉向鲨鱼，鲨鱼挣扎沉入海底",
+          "dialogue": "（喘息）还没完...",
+          "sound_effects": "鱼叉刺入声、鲨鱼惨叫声",
+          "style_notes": "特写刺入瞬间"
+        },
+        {
+          "frame_number": 4,
+          "visual_description": "更多鲨鱼游来包围马林鱼",
+          "dialogue": "（内心独白）太多了...我该怎么办？",
+          "sound_effects": "鲨鱼群游动声",
+          "style_notes": "全景镜头展现数量"
+        }
+      ]
+    },
+    {
+      "panel_number": 7,
+      "layout_type": "2格布局",
+      "layout_description": "老人抵抗鲨鱼",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "老人拿起船上刀子准备继续战斗",
+          "dialogue": "我不会让你们吃掉我的鱼！",
+          "sound_effects": "刀子出鞘声",
+          "style_notes": "特写刀子与坚定表情"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "老人用刀子刺向靠近的鲨鱼，鲨鱼受伤逃走",
+          "dialogue": "（大喊）来啊！",
+          "sound_effects": "刀子刺入声、鲨鱼叫声",
+          "style_notes": "动态镜头表现激烈战斗"
+        }
+      ]
+    },
+    {
+      "panel_number": 8,
+      "layout_type": "3格布局",
+      "layout_description": "鱼被吃掉过程",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "马林鱼身体已被吃掉一部分，老人看鱼眼中充满悲伤",
+          "dialogue": "（低语）我的鱼...我的朋友...",
+          "sound_effects": "鲨鱼咬食声",
+          "style_notes": "中景镜头展现表情与残骸"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "老人继续战斗但体力不支",
+          "dialogue": "（喘息）我快不行了...",
+          "sound_effects": "喘息声",
+          "style_notes": "特写疲惫的脸"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "鲨鱼散去，马林鱼只剩骨架",
+          "dialogue": "（沉默）...",
+          "sound_effects": "海浪声",
+          "style_notes": "全景镜头展现骨架"
+        }
+      ]
+    },
+    {
+      "panel_number": 9,
+      "layout_type": "1格布局",
+      "layout_description": "只剩骨架的鱼",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "老人坐船上看马林鱼巨大骨架，夕阳余晖照骨架格外凄凉",
+          "dialogue": "（内心独白）虽然失去了鱼，但我没有输给大海...",
+          "sound_effects": "海风呼啸声",
+          "style_notes": "全景镜头突出骨架巨大与老人孤独"
+        }
+      ]
+    },
+    {
+      "panel_number": 10,
+      "layout_type": "2格布局",
+      "layout_description": "老人归来",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "老人小船靠近岸边，渔民看船上马林鱼骨架露出惊讶表情",
+          "dialogue": "（渔民甲）看！那是什么？",
+          "sound_effects": "渔民议论声",
+          "style_notes": "远景镜头展现岸边渔民与船"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "老人回小屋躺在床上，孩子来到身边看疲惫的脸眼中充满敬佩",
+          "dialogue": "（孩子）爷爷，你真棒！",
+          "sound_effects": "孩子声音",
+          "style_notes": "近景镜头展现互动暖色调"
+        }
+      ]
+    }
+  ],
+  "storyboard": [
+    {
+      "scene_number": 1,
+      "description": "老人小屋内，墙上挂破旧渔网鱼叉，桌上简单食物，老人坐床边看窗外大海，表情平静坚定",
+      "visual_elements": "老人小屋内，墙上挂破旧渔网鱼叉，桌上简单食物，老人坐床边看窗外大海，表情平静坚定 第85天了...今天一定会有收获 海风呼啸声 写实暖色调，突出孤独与坚韧"
+    },
+    {
+      "scene_number": 2,
+      "description": "广阔大海上老人小船如叶子漂浮，四周只有蓝海水天空，远处无船只",
+      "visual_elements": "广阔大海上老人小船如叶子漂浮，四周只有蓝海水天空，远处无船只 （内心独白）孤独...但我不害怕 海鸥鸣叫声 全景镜头突出海洋辽阔与老人渺小"
+    },
+    {
+      "scene_number": 3,
+      "description": "老人低头看水面发现鱼群游动痕迹，眼睛一亮",
+      "visual_elements": "老人低头看水面发现鱼群游动痕迹，眼睛一亮 哦？有动静... 水波声 特写老人眼睛与水面鱼群"
+    },
+    {
+      "scene_number": 4,
+      "description": "鱼线突然绷紧，老人身体后仰紧拉鱼线",
+      "visual_elements": "鱼线突然绷紧，老人身体后仰紧拉鱼线 好大的力气！ 鱼线紧绷声 动态镜头表现力量对抗"
+    },
+    {
+      "scene_number": 5,
+      "description": "老人站船上后仰用尽全身力气拉鱼线，马林鱼巨大身影水下隐约可见，夕阳照在老人和鱼身上",
+      "visual_elements": "老人站船上后仰用尽全身力气拉鱼线，马林鱼巨大身影水下隐约可见，夕阳照在老人和鱼身上 （大喊）我不会输给你的！ 海浪声、喊叫声 大特写突出决心与马林鱼巨大"
+    },
+    {
+      "scene_number": 6,
+      "description": "马林鱼血染红海水，远处鲨鱼快速游来",
+      "visual_elements": "马林鱼血染红海水，远处鲨鱼快速游来 不好！鲨鱼来了！ 鲨鱼游动声 全景镜头展现逼近"
+    },
+    {
+      "scene_number": 7,
+      "description": "老人拿起船上刀子准备继续战斗",
+      "visual_elements": "老人拿起船上刀子准备继续战斗 我不会让你们吃掉我的鱼！ 刀子出鞘声 特写刀子与坚定表情"
+    },
+    {
+      "scene_number": 8,
+      "description": "马林鱼身体已被吃掉一部分，老人看鱼眼中充满悲伤",
+      "visual_elements": "马林鱼身体已被吃掉一部分，老人看鱼眼中充满悲伤 （低语）我的鱼...我的朋友... 鲨鱼咬食声 中景镜头展现表情与残骸"
+    },
+    {
+      "scene_number": 9,
+      "description": "老人坐船上看马林鱼巨大骨架，夕阳余晖照骨架格外凄凉",
+      "visual_elements": "老人坐船上看马林鱼巨大骨架，夕阳余晖照骨架格外凄凉 （内心独白）虽然失去了鱼，但我没有输给大海... 海风呼啸声 全景镜头突出骨架巨大与老人孤独"
+    },
+    {
+      "scene_number": 10,
+      "description": "老人小船靠近岸边，渔民看船上马林鱼骨架露出惊讶表情",
+      "visual_elements": "老人小船靠近岸边，渔民看船上马林鱼骨架露出惊讶表情 （渔民甲）看！那是什么？ 渔民议论声 远景镜头展现岸边渔民与船"
+    }
+  ]
+}

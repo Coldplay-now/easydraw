@@ -1,0 +1,315 @@
+{
+  "story_title": "深海遗墟：废土奇谭",
+  "cover": {
+    "title_text": "深海遗墟：废土奇谭",
+    "title_style": "带有腐蚀效果的蓝色艺术字，边缘荧光勾勒，呈现深海金属锈蚀质感",
+    "visual_description": "宏大的海底废土场景，沉没的古代建筑残骸矗立在黑暗中，周围环绕着形态各异的发光生物，深海探险者位于前景，背景是巨大的建筑轮廓和幽蓝的海水",
+    "main_character": "深海探险者身穿带有发光管线的高科技潜水服，头盔反射着周围的荧光生物，手持探测设备，姿态警惕而好奇",
+    "key_elements": "沉没的古代建筑残骸、发光的深海生物、探险者的探测设备、悬浮的废土碎片、幽蓝的深海背景",
+    "style_notes": "科幻废土风格，结合深海的神秘感，细节丰富的机械与生物设计，强烈的光影对比",
+    "color_scheme": "深蓝为主色调，辅以荧光绿、紫色、橙色的生物发光，黑色背景增强深度感",
+    "composition": "探险者位于画面中心偏下，背景是巨大的建筑残骸和成群的生物，标题位于顶部，采用动态曲线排列，增强流动感"
+  },
+  "total_panels": 10,
+  "total_frames": 25,
+  "total_images": 11,
+  "panels": [
+    {
+      "panel_number": 1,
+      "layout_type": "3格布局",
+      "layout_description": "引入探险者进入深海废土，展示初始场景",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "探险者透过潜水服头盔看向镜头，背景是黑暗的深海，远处有微弱的光点",
+          "dialogue": "终于到达了传说中的深海废土...",
+          "sound_effects": "水泡声（咕噜咕噜）",
+          "style_notes": "特写镜头，强调探险者的表情和头盔反射的光影"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "探险者向前游动，手中的探测设备发出蓝光，照亮前方的废土碎片",
+          "dialogue": "探测到异常能量反应...",
+          "sound_effects": "设备嗡鸣声（哔哔）",
+          "style_notes": "中景镜头，展示探险者的动作和周围环境"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "远景展示，探险者在巨大的建筑残骸前显得渺小，周围有小型发光生物游动",
+          "dialogue": "这规模...远超想象...",
+          "sound_effects": "深海低频声（嗡嗡）",
+          "style_notes": "广角镜头，突出场景的宏大感"
+        }
+      ]
+    },
+    {
+      "panel_number": 2,
+      "layout_type": "2格布局",
+      "layout_description": "展示建筑细节与生物互动",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "特写古代建筑的残破墙壁，上面有未知的符号和发光的苔藓",
+          "dialogue": "这些符号...从未见过...",
+          "sound_effects": "无",
+          "style_notes": "细节描绘，突出建筑的古老与神秘"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "小型发光生物在建筑缝隙中穿梭，其中一只停在探险者的手套上",
+          "dialogue": "它们似乎不怕我...",
+          "sound_effects": "生物细微叫声（叽叽）",
+          "style_notes": "温馨的互动场景，对比废土的荒凉"
+        }
+      ]
+    },
+    {
+      "panel_number": 3,
+      "layout_type": "4格布局",
+      "layout_description": "展示多样的生物奇观",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "巨大的透明水母状生物飘过，体内有发光的内脏",
+          "dialogue": "太美了...",
+          "sound_effects": "生物游动声（沙沙）",
+          "style_notes": "梦幻般的视觉效果，透明质感表现"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "长着多对翅膀的鱼类生物快速掠过",
+          "dialogue": "速度好快！",
+          "sound_effects": "水流声（唰唰）",
+          "style_notes": "动态模糊表现速度感"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "类似章鱼的生物用触手抓住建筑残骸",
+          "dialogue": "它们在修复建筑？",
+          "sound_effects": "触手蠕动声（黏黏）",
+          "style_notes": "细节展示生物的行为特征"
+        },
+        {
+          "frame_number": 4,
+          "visual_description": "成群的发光微生物组成图案",
+          "dialogue": "它们在传递信息？",
+          "sound_effects": "无",
+          "style_notes": "抽象的视觉表现，神秘氛围"
+        }
+      ]
+    },
+    {
+      "panel_number": 4,
+      "layout_type": "1格布局",
+      "layout_description": "宏大全景展示深海废土",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "超广角全景，连绵的海底废土建筑群，高耸的残破塔楼在黑暗中矗立，周围游动着各种形态的发光生物，远处有巨大的生物轮廓若隐若现，探险者在画面中显得渺小",
+          "dialogue": "这...这简直是另一个世界...",
+          "sound_effects": "深海低频共鸣声（轰隆隆）",
+          "style_notes": "宏大场景描绘，细节丰富的废土建筑与生物多样性，强烈的空间纵深感"
+        }
+      ]
+    },
+    {
+      "panel_number": 5,
+      "layout_type": "3格布局",
+      "layout_description": "探险者发现建筑内部秘密",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "探险者进入建筑内部，墙壁上有发光的管道系统",
+          "dialogue": "这里曾经是某种设施...",
+          "sound_effects": "水滴声（滴答）",
+          "style_notes": "昏暗的内部场景，管道的蓝光提供主要照明"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "探险者触摸墙壁上的控制面板，屏幕突然亮起",
+          "dialogue": "还有能量残留！",
+          "sound_effects": "屏幕启动声（滋滋）",
+          "style_notes": "科技感十足的控制面板，古老与现代的结合"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "屏幕上显示出古代文明的影像，展示建筑的原貌",
+          "dialogue": "原来这里是...",
+          "sound_effects": "影像播放声（哗哗）",
+          "style_notes": "全息影像效果，色彩对比强烈"
+        }
+      ]
+    },
+    {
+      "panel_number": 6,
+      "layout_type": "2格布局",
+      "layout_description": "生物群的壮观场面",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "成千上万的发光生物聚集在一起，形成光的海洋",
+          "dialogue": "它们在迁徙？",
+          "sound_effects": "生物群游动声（嗡嗡作响）",
+          "style_notes": "密集的生物群，强烈的视觉冲击"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "巨大的鲸鱼状生物从生物群中穿过，背上有发光的纹路",
+          "dialogue": "那是什么？！",
+          "sound_effects": "巨大生物的呼吸声（呼哧）",
+          "style_notes": "巨大生物与小型生物的对比，突出生态系统的多样性"
+        }
+      ]
+    },
+    {
+      "panel_number": 7,
+      "layout_type": "4格布局",
+      "layout_description": "废土中的生态系统",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "植物状生物从建筑残骸中生长出来",
+          "dialogue": "生命总能找到出路...",
+          "sound_effects": "无",
+          "style_notes": "废土与生命的对比，希望的象征"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "小型生物在植物间觅食",
+          "dialogue": "形成了完整的生态链...",
+          "sound_effects": "生物觅食声（咔嚓）",
+          "style_notes": "细节展示生态系统的运作"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "食肉生物追逐猎物",
+          "dialogue": "适者生存...",
+          "sound_effects": "追逐声（咚咚）",
+          "style_notes": "紧张的生存斗争场景"
+        },
+        {
+          "frame_number": 4,
+          "visual_description": "探险者观察这一切，若有所思",
+          "dialogue": "这里的秘密还不止这些...",
+          "sound_effects": "无",
+          "style_notes": "探险者的表情特写，思考的神态"
+        }
+      ]
+    },
+    {
+      "panel_number": 8,
+      "layout_type": "1格布局",
+      "layout_description": "展示巨大的古代遗迹",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "巨大的古代雕像矗立在海底，面部表情威严，周围环绕着发光生物",
+          "dialogue": "这是他们的神明吗？",
+          "sound_effects": "深海的寂静感",
+          "style_notes": "庄严的氛围，巨大的雕像与渺小的生物形成对比"
+        }
+      ]
+    },
+    {
+      "panel_number": 9,
+      "layout_type": "3格布局",
+      "layout_description": "探险者与特殊生物的相遇",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "探险者遇到一只智慧型生物，它用触手指向某个方向",
+          "dialogue": "你想带我去哪里？",
+          "sound_effects": "生物的交流声（啾啾）",
+          "style_notes": "神秘的智慧生物，与探险者的互动"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "生物带领探险者穿过狭窄的通道",
+          "dialogue": "跟着它应该能发现更多秘密...",
+          "sound_effects": "水流声（潺潺）",
+          "style_notes": "狭窄通道的压迫感，引导式的叙事"
+        },
+        {
+          "frame_number": 3,
+          "visual_description": "通道尽头出现巨大的发光球体",
+          "dialogue": "那是什么？！",
+          "sound_effects": "球体的嗡鸣声（嗡嗡）",
+          "style_notes": "神秘的发光球体，悬念的营造"
+        }
+      ]
+    },
+    {
+      "panel_number": 10,
+      "layout_type": "2格布局",
+      "layout_description": "结尾，宏大场景的总结",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "探险者站在发光球体前，周围是整个深海废土的全景",
+          "dialogue": "这里的秘密...我会全部解开！",
+          "sound_effects": "球体的共鸣声（轰轰）",
+          "style_notes": "宏大的结尾场景，探险者的决心"
+        },
+        {
+          "frame_number": 2,
+          "visual_description": "远景展示整个深海废土，探险者的灯光在黑暗中闪烁，周围是无数的生物和建筑",
+          "dialogue": "（内心）这只是开始...",
+          "sound_effects": "深海的背景声",
+          "style_notes": "开放式结尾，留下悬念，强调场景的宏大与神秘"
+        }
+      ]
+    }
+  ],
+  "storyboard": [
+    {
+      "scene_number": 1,
+      "description": "探险者透过潜水服头盔看向镜头，背景是黑暗的深海，远处有微弱的光点",
+      "visual_elements": "探险者透过潜水服头盔看向镜头，背景是黑暗的深海，远处有微弱的光点 终于到达了传说中的深海废土... 水泡声（咕噜咕噜） 特写镜头，强调探险者的表情和头盔反射的光影"
+    },
+    {
+      "scene_number": 2,
+      "description": "特写古代建筑的残破墙壁，上面有未知的符号和发光的苔藓",
+      "visual_elements": "特写古代建筑的残破墙壁，上面有未知的符号和发光的苔藓 这些符号...从未见过... 无 细节描绘，突出建筑的古老与神秘"
+    },
+    {
+      "scene_number": 3,
+      "description": "巨大的透明水母状生物飘过，体内有发光的内脏",
+      "visual_elements": "巨大的透明水母状生物飘过，体内有发光的内脏 太美了... 生物游动声（沙沙） 梦幻般的视觉效果，透明质感表现"
+    },
+    {
+      "scene_number": 4,
+      "description": "超广角全景，连绵的海底废土建筑群，高耸的残破塔楼在黑暗中矗立，周围游动着各种形态的发光生物，远处有巨大的生物轮廓若隐若现，探险者在画面中显得渺小",
+      "visual_elements": "超广角全景，连绵的海底废土建筑群，高耸的残破塔楼在黑暗中矗立，周围游动着各种形态的发光生物，远处有巨大的生物轮廓若隐若现，探险者在画面中显得渺小 这...这简直是另一个世界... 深海低频共鸣声（轰隆隆） 宏大场景描绘，细节丰富的废土建筑与生物多样性，强烈的空间纵深感"
+    },
+    {
+      "scene_number": 5,
+      "description": "探险者进入建筑内部，墙壁上有发光的管道系统",
+      "visual_elements": "探险者进入建筑内部，墙壁上有发光的管道系统 这里曾经是某种设施... 水滴声（滴答） 昏暗的内部场景，管道的蓝光提供主要照明"
+    },
+    {
+      "scene_number": 6,
+      "description": "成千上万的发光生物聚集在一起，形成光的海洋",
+      "visual_elements": "成千上万的发光生物聚集在一起，形成光的海洋 它们在迁徙？ 生物群游动声（嗡嗡作响） 密集的生物群，强烈的视觉冲击"
+    },
+    {
+      "scene_number": 7,
+      "description": "植物状生物从建筑残骸中生长出来",
+      "visual_elements": "植物状生物从建筑残骸中生长出来 生命总能找到出路... 无 废土与生命的对比，希望的象征"
+    },
+    {
+      "scene_number": 8,
+      "description": "巨大的古代雕像矗立在海底，面部表情威严，周围环绕着发光生物",
+      "visual_elements": "巨大的古代雕像矗立在海底，面部表情威严，周围环绕着发光生物 这是他们的神明吗？ 深海的寂静感 庄严的氛围，巨大的雕像与渺小的生物形成对比"
+    },
+    {
+      "scene_number": 9,
+      "description": "探险者遇到一只智慧型生物，它用触手指向某个方向",
+      "visual_elements": "探险者遇到一只智慧型生物，它用触手指向某个方向 你想带我去哪里？ 生物的交流声（啾啾） 神秘的智慧生物，与探险者的互动"
+    },
+    {
+      "scene_number": 10,
+      "description": "探险者站在发光球体前，周围是整个深海废土的全景",
+      "visual_elements": "探险者站在发光球体前，周围是整个深海废土的全景 这里的秘密...我会全部解开！ 球体的共鸣声（轰轰） 宏大的结尾场景，探险者的决心"
+    }
+  ]
+}

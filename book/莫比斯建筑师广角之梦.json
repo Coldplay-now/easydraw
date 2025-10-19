@@ -1,0 +1,158 @@
+{
+  "story_title": "莫比斯建筑师广角之梦",
+  "cover": {
+    "title_text": "建筑师广角之梦",
+    "title_style": "未来主义几何字体，带有金属质感和光影效果，字体线条流畅而富有机械感",
+    "visual_description": "封面采用广角视角，展现建筑师站在未来主义建筑群之巅，背景是宏伟的螺旋状塔楼和悬浮建筑，天空呈现梦幻的紫色渐变，建筑表面反射着奇异的光芒",
+    "main_character": "建筑师身穿简洁的白色制服，手持全息设计图纸，姿态自信而专注，目光凝视远方正在建设的宏伟建筑",
+    "key_elements": "螺旋塔楼、悬浮平台、全息设计图、几何建筑结构、未来主义建筑细节、广角透视效果",
+    "style_notes": "莫比斯风格标志性的流畅线条、复杂的几何图案、超现实建筑景观、细腻的机械细节",
+    "color_scheme": "主色调：深紫、银灰、金属蓝；点缀色：亮橙、荧光绿",
+    "composition": "建筑师位于画面左下角，建筑群向右上角延伸，营造强烈的透视感和空间深度"
+  },
+  "total_panels": 10,
+  "total_frames": 10,
+  "total_images": 11,
+  "panels": [
+    {
+      "panel_number": 1,
+      "layout_type": "1格布局",
+      "layout_description": "引入主角和世界观，展现建筑师在工作室中的场景",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "广角镜头下的未来主义工作室，建筑师站在全息设计台前，周围环绕着悬浮的设计图纸和建筑模型，窗外是宏伟的城市景观",
+          "dialogue": "每个建筑都是一个梦想的具象化...",
+          "sound_effects": "全息投影的轻微嗡鸣声",
+          "style_notes": "细腻的机械细节，流畅的曲线设计，莫比斯标志性的复杂几何图案"
+        }
+      ]
+    },
+    {
+      "panel_number": 2,
+      "layout_type": "1格布局",
+      "layout_description": "展现建筑师的创意灵感来源",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "建筑师闭目沉思，脑海中浮现出螺旋状的建筑结构，背景是流动的几何图案和数学公式",
+          "dialogue": "灵感如电流般在脑海中穿梭...",
+          "sound_effects": "",
+          "style_notes": "超现实的思维可视化，线条流动感强烈"
+        }
+      ]
+    },
+    {
+      "panel_number": 3,
+      "layout_type": "1格布局",
+      "layout_description": "设计过程的细节展现",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "特写建筑师的手正在全息界面上绘制建筑细节，手指间流淌着光效，设计图逐渐成型",
+          "dialogue": "每一根线条都要精确到微米...",
+          "sound_effects": "界面操作的轻微点击声",
+          "style_notes": "注重手部细节和界面设计的未来感"
+        }
+      ]
+    },
+    {
+      "panel_number": 4,
+      "layout_type": "1格布局",
+      "layout_description": "建筑工地的宏伟场景",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "广角展现建筑工地，悬浮的施工机械正在建造螺旋塔楼，工人们如蚂蚁般渺小，建筑结构已初具规模",
+          "dialogue": "从图纸到现实，这是一个奇迹的诞生...",
+          "sound_effects": "机械运转的轰鸣声",
+          "style_notes": "宏大的工程场景，强调建筑的规模和复杂性"
+        }
+      ]
+    },
+    {
+      "panel_number": 5,
+      "layout_type": "1格布局",
+      "layout_description": "建筑内部结构的细节展示",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "切割视角展示建筑内部，复杂的管道系统、悬浮走廊和光效装饰交织在一起，形成精密的机械美学",
+          "dialogue": "内部结构如生物般有机而精密...",
+          "sound_effects": "能量流动的微弱声响",
+          "style_notes": "机械生物感的设计，复杂的内部结构"
+        }
+      ]
+    },
+    {
+      "panel_number": 6,
+      "layout_type": "1格布局",
+      "layout_description": "建筑与自然环境的融合",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "建筑群与奇异植物共生的场景，未来主义建筑被发光的藤蔓缠绕，形成超现实的生态建筑景观",
+          "dialogue": "建筑应该与自然和谐共存...",
+          "sound_effects": "植物生长的细微声音",
+          "style_notes": "生态未来主义，有机与机械的融合"
+        }
+      ]
+    },
+    {
+      "panel_number": 7,
+      "layout_type": "1格布局",
+      "layout_description": "建筑功能的展示",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "居民在建筑中生活的场景，悬浮交通工具在建筑间穿梭，人们在全息广场上交流，展现建筑的实用性",
+          "dialogue": "建筑是为生活而存在的...",
+          "sound_effects": "城市生活的嘈杂声",
+          "style_notes": "生活化场景与未来建筑的结合"
+        }
+      ]
+    },
+    {
+      "panel_number": 8,
+      "layout_type": "1格布局",
+      "layout_description": "建筑师的反思时刻",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "建筑师独自站在建成建筑的顶端，俯瞰整个城市，表情既自豪又沉思，背景是璀璨的城市夜景",
+          "dialogue": "我们建造的不仅是建筑，更是未来...",
+          "sound_effects": "夜风的呼啸声",
+          "style_notes": "情感化的时刻，强调建筑师的内心世界"
+        }
+      ]
+    },
+    {
+      "panel_number": 9,
+      "layout_type": "1格布局",
+      "layout_description": "建筑的时间流逝",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "同一建筑在不同时间段的蒙太奇效果，展现建筑从黎明到黄昏的光影变化，居民生活的变迁",
+          "dialogue": "建筑见证着时间的流逝...",
+          "sound_effects": "时间流逝的象征性音效",
+          "style_notes": "时间蒙太奇效果，光影变化的表现"
+        }
+      ]
+    },
+    {
+      "panel_number": 10,
+      "layout_type": "1格布局",
+      "layout_description": "结局：新的开始",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "建筑师展开新的全息设计图，背后是已完成的建筑群，面前是空白的设计界面，寓意着新的创作开始",
+          "dialogue": "每一个结束都是新的开始...",
+          "sound_effects": "全息界面启动的声音",
+          "style_notes": "循环叙事，强调创造力的永恒"
+        }
+      ]
+    }
+  ]
+}

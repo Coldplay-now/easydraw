@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const progressContainer = document.getElementById('progress-container');
     const progressFill = document.getElementById('progress-fill');
     const progressText = document.getElementById('progress-text');
-
     let selectedJsonFile = null;
 
     // 模式切换
@@ -72,11 +71,31 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+    // 漫画风格卡片选择事件
+    const styleCards = document.querySelectorAll('.style-card');
+    const styleSelect = document.getElementById('style-select');
+    
+    // 设置默认选中美式漫画风格
+    styleCards[0].classList.add('selected');
+    
+    styleCards.forEach(card => {
+        card.addEventListener('click', () => {
+            // 移除所有选中状态
+            styleCards.forEach(c => c.classList.remove('selected'));
+            
+            // 添加当前选中状态
+            card.classList.add('selected');
+            
+            // 更新隐藏的input值
+            styleSelect.value = card.dataset.value;
+        });
+    });
+
     // 生成图片
     generateBtn.addEventListener('click', async () => {
         const mode = document.querySelector('input[name="mode"]:checked').value;
         const size = document.querySelector('input[name="size"]:checked').value;
-        const style = document.getElementById('style-select').value;
+        const style = styleSelect.value;
 
         if (mode === 'single') {
             const prompt = promptTextarea.value;
@@ -187,17 +206,17 @@ document.addEventListener('DOMContentLoaded', () => {
         for (let attempt = 1; attempt <= maxRetries; attempt++) {
             try {
                 const response = await fetch('/generate-batch-image', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({
-                        prompt: prompt,
-                        size: size,
-                        sessionId: sessionId,
-                        iscover: isCover,
-                        style: style
-                    })
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    prompt: prompt,
+                    size: size,
+                    sessionId: sessionId,
+                    iscover: isCover,
+                    style: style
+                })
                 });
 
                 if (!response.ok) {
@@ -216,6 +235,17 @@ document.addEventListener('DOMContentLoaded', () => {
                             continue;
                         } else {
                             throw new Error(`敏感内容检测失败，已重试${maxRetries}次。请尝试修改提示词内容。`);
+                        }
+                    }
+                    // 检查是否是服务器内部错误（500错误）
+                    else if (response.status === 500) {
+                        if (attempt < maxRetries) {
+                            console.log(`服务器内部错误（500），第${attempt}次重试中... (${panelNumber ? `分镜 ${panelNumber}` : '封面'})`);
+                            // 等待5-8秒后重试，给服务器更多恢复时间
+                            await new Promise(resolve => setTimeout(resolve, 5000 + Math.random() * 3000));
+                            continue;
+                        } else {
+                            throw new Error(`服务器暂时不可用（500错误），已重试${maxRetries}次。请稍后再试或联系服务提供商。`);
                         }
                     } else {
                         throw new Error(errorData.error || '生成图片失败');
@@ -519,13 +549,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div id="batch-statistics">
                     <p>成功: <span id="success-count">0</span> 张, 失败: <span id="error-count">0</span> 张</p>
                 </div>
-                <div style="margin-bottom: 20px; display: flex; gap: 15px; flex-wrap: wrap;" id="download-section" style="display: none;">
-                    <button onclick="downloadBatchImages('${sessionId}')" class="btn-success">
-                        打包下载ZIP
-                    </button>
-                    <button onclick="downloadPDF('${sessionId}', '${title}')" class="btn-danger">
-                        下载PDF漫画
-                    </button>
+                <div id="download-section" style="margin: 30px 0; display: none;">
+                    <div class="download-cards">
+                        <div class="download-card" onclick="downloadBatchImages('${sessionId}')">
+                            <div class="card-icon">📦</div>
+                            <div class="card-content">
+                                <h4>打包下载ZIP</h4>
+                                <p>下载所有生成图片的压缩包</p>
+                            </div>
+                        </div>
+                        <div class="download-card" onclick="downloadPDF('${sessionId}', '${title}')">
+                            <div class="card-icon">📄</div>
+                            <div class="card-content">
+                                <h4>下载PDF漫画</h4>
+                                <p>生成精美的PDF漫画手册</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="batch-images" id="batch-images-container">
                 </div>

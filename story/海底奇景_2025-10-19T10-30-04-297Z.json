@@ -1,0 +1,210 @@
+{
+  "story_title": "海底奇景",
+  "cover": {
+    "title_text": "海底奇景",
+    "title_style": "蓝色渐变艺术字，带有水波纹特效，边缘发光",
+    "visual_description": "深海背景下，阳光穿透层层海水形成光束，主角穿着亮色潜水服悬浮在画面中央，周围环绕五彩斑斓的珊瑚礁、发光水母群和彩色鱼群，远处可见沉船残骸的轮廓",
+    "main_character": "年轻潜水员，睁大眼睛露出惊讶表情，右手持相机准备拍摄，左手自然伸展",
+    "key_elements": "珊瑚礁、发光水母、彩色热带鱼、沉船残骸、阳光光束、水泡",
+    "style_notes": "奇幻写实风格，色彩鲜艳饱和，光影层次丰富",
+    "color_scheme": "深蓝底色、青绿色珊瑚、荧光粉水母、金色阳光、彩色鱼群",
+    "composition": "潜水员位于画面中心，周围奇景环绕，标题置于上方中央，营造沉浸式深海氛围"
+  },
+  "total_panels": 10,
+  "total_frames": 10,
+  "total_images": 11,
+  "panels": [
+    {
+      "panel_number": 1,
+      "layout_type": "1格布局",
+      "layout_description": "引入深海入口，展示阳光穿透水面的瞬间",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "潜水员刚潜入水面，阳光透过清澈海水形成光柱，周围漂浮着细小气泡",
+          "dialogue": "终于潜入深海了！",
+          "sound_effects": "水泡咕嘟声",
+          "style_notes": "明亮光影对比，突出水面与深海的过渡"
+        }
+      ]
+    },
+    {
+      "panel_number": 2,
+      "layout_type": "1格布局",
+      "layout_description": "展示巨型彩色珊瑚礁景观",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "潜水员站在巨大的珊瑚礁前，珊瑚呈现红、黄、蓝、绿多种颜色，无数热带鱼在其间穿梭",
+          "dialogue": "这珊瑚礁比想象中还要大！",
+          "sound_effects": "鱼群游动声",
+          "style_notes": "色彩饱和，细节丰富的珊瑚纹理"
+        }
+      ]
+    },
+    {
+      "panel_number": 3,
+      "layout_type": "1格布局",
+      "layout_description": "梦幻发光水母群场景",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "数十只半透明发光水母从潜水员身边飘过，发出柔和的蓝绿色光芒，背景是深邃的海水",
+          "dialogue": "这些水母像会飞的灯笼！",
+          "sound_effects": "轻柔水流声",
+          "style_notes": "柔和荧光效果，半透明质感"
+        }
+      ]
+    },
+    {
+      "panel_number": 4,
+      "layout_type": "1格布局",
+      "layout_description": "古代沉船残骸探索",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "潜水员靠近一艘覆盖着海藻和珊瑚的古代沉船，船舱门口隐约可见",
+          "dialogue": "这是几百年前的沉船吗？",
+          "sound_effects": "低沉水流声",
+          "style_notes": "神秘复古氛围，光影对比强烈"
+        }
+      ]
+    },
+    {
+      "panel_number": 5,
+      "layout_type": "1格布局",
+      "layout_description": "与友好海龟互动",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "一只巨大的绿海龟游到潜水员身边，潜水员伸手轻轻触碰海龟的背壳",
+          "dialogue": "你好啊，老伙计！",
+          "sound_effects": "海龟划水声",
+          "style_notes": "温馨治愈风格，柔和色调"
+        }
+      ]
+    },
+    {
+      "panel_number": 6,
+      "layout_type": "1格布局",
+      "layout_description": "深海峡谷边缘视角",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "潜水员站在陡峭的深海峡谷边缘，下方是漆黑的深渊，远处可见发光生物的点点光芒",
+          "dialogue": "好深的峡谷...下面会有什么？",
+          "sound_effects": "风声般的水流声",
+          "style_notes": "悬疑感十足的深渊视角"
+        }
+      ]
+    },
+    {
+      "panel_number": 7,
+      "layout_type": "1格布局",
+      "layout_description": "深海发光鱼群奇观",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "成千上万只发光的深海鱼从黑暗中涌出，形成一条闪烁的光带，环绕在潜水员周围",
+          "dialogue": "简直像海底银河！",
+          "sound_effects": "鱼群游动的沙沙声",
+          "style_notes": "奇幻星空效果，光点闪烁"
+        }
+      ]
+    },
+    {
+      "panel_number": 8,
+      "layout_type": "1格布局",
+      "layout_description": "巨型鲸鱼擦肩而过",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "一头巨大的座头鲸从潜水员身旁缓缓游过，潜水员在鲸鱼面前显得格外渺小",
+          "dialogue": "天呐，这鲸鱼太大了！",
+          "sound_effects": "鲸鱼低沉的鸣叫声",
+          "style_notes": "宏伟壮观的对比视角"
+        }
+      ]
+    },
+    {
+      "panel_number": 9,
+      "layout_type": "1格布局",
+      "layout_description": "隐藏洞穴发现",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "潜水员发现一个隐藏在岩石后的洞穴，洞口透出神秘的紫色光芒",
+          "dialogue": "这里面一定有秘密！",
+          "sound_effects": "水滴声",
+          "style_notes": "神秘幽静的洞穴氛围"
+        }
+      ]
+    },
+    {
+      "panel_number": 10,
+      "layout_type": "1格布局",
+      "layout_description": "冒险结束，浮出水面",
+      "frames": [
+        {
+          "frame_number": 1,
+          "visual_description": "潜水员浮上水面，回头望向深蓝色的大海，脸上露出满足的微笑",
+          "dialogue": "这真是一次难忘的海底冒险！",
+          "sound_effects": "水面溅起声",
+          "style_notes": "温暖明亮的收尾画面"
+        }
+      ]
+    }
+  ],
+  "storyboard": [
+    {
+      "scene_number": 1,
+      "description": "潜水员刚潜入水面，阳光透过清澈海水形成光柱，周围漂浮着细小气泡",
+      "visual_elements": "潜水员刚潜入水面，阳光透过清澈海水形成光柱，周围漂浮着细小气泡 终于潜入深海了！ 水泡咕嘟声 明亮光影对比，突出水面与深海的过渡"
+    },
+    {
+      "scene_number": 2,
+      "description": "潜水员站在巨大的珊瑚礁前，珊瑚呈现红、黄、蓝、绿多种颜色，无数热带鱼在其间穿梭",
+      "visual_elements": "潜水员站在巨大的珊瑚礁前，珊瑚呈现红、黄、蓝、绿多种颜色，无数热带鱼在其间穿梭 这珊瑚礁比想象中还要大！ 鱼群游动声 色彩饱和，细节丰富的珊瑚纹理"
+    },
+    {
+      "scene_number": 3,
+      "description": "数十只半透明发光水母从潜水员身边飘过，发出柔和的蓝绿色光芒，背景是深邃的海水",
+      "visual_elements": "数十只半透明发光水母从潜水员身边飘过，发出柔和的蓝绿色光芒，背景是深邃的海水 这些水母像会飞的灯笼！ 轻柔水流声 柔和荧光效果，半透明质感"
+    },
+    {
+      "scene_number": 4,
+      "description": "潜水员靠近一艘覆盖着海藻和珊瑚的古代沉船，船舱门口隐约可见",
+      "visual_elements": "潜水员靠近一艘覆盖着海藻和珊瑚的古代沉船，船舱门口隐约可见 这是几百年前的沉船吗？ 低沉水流声 神秘复古氛围，光影对比强烈"
+    },
+    {
+      "scene_number": 5,
+      "description": "一只巨大的绿海龟游到潜水员身边，潜水员伸手轻轻触碰海龟的背壳",
+      "visual_elements": "一只巨大的绿海龟游到潜水员身边，潜水员伸手轻轻触碰海龟的背壳 你好啊，老伙计！ 海龟划水声 温馨治愈风格，柔和色调"
+    },
+    {
+      "scene_number": 6,
+      "description": "潜水员站在陡峭的深海峡谷边缘，下方是漆黑的深渊，远处可见发光生物的点点光芒",
+      "visual_elements": "潜水员站在陡峭的深海峡谷边缘，下方是漆黑的深渊，远处可见发光生物的点点光芒 好深的峡谷...下面会有什么？ 风声般的水流声 悬疑感十足的深渊视角"
+    },
+    {
+      "scene_number": 7,
+      "description": "成千上万只发光的深海鱼从黑暗中涌出，形成一条闪烁的光带，环绕在潜水员周围",
+      "visual_elements": "成千上万只发光的深海鱼从黑暗中涌出，形成一条闪烁的光带，环绕在潜水员周围 简直像海底银河！ 鱼群游动的沙沙声 奇幻星空效果，光点闪烁"
+    },
+    {
+      "scene_number": 8,
+      "description": "一头巨大的座头鲸从潜水员身旁缓缓游过，潜水员在鲸鱼面前显得格外渺小",
+      "visual_elements": "一头巨大的座头鲸从潜水员身旁缓缓游过，潜水员在鲸鱼面前显得格外渺小 天呐，这鲸鱼太大了！ 鲸鱼低沉的鸣叫声 宏伟壮观的对比视角"
+    },
+    {
+      "scene_number": 9,
+      "description": "潜水员发现一个隐藏在岩石后的洞穴，洞口透出神秘的紫色光芒",
+      "visual_elements": "潜水员发现一个隐藏在岩石后的洞穴，洞口透出神秘的紫色光芒 这里面一定有秘密！ 水滴声 神秘幽静的洞穴氛围"
+    },
+    {
+      "scene_number": 10,
+      "description": "潜水员浮上水面，回头望向深蓝色的大海，脸上露出满足的微笑",
+      "visual_elements": "潜水员浮上水面，回头望向深蓝色的大海，脸上露出满足的微笑 这真是一次难忘的海底冒险！ 水面溅起声 温暖明亮的收尾画面"
+    }
+  ]
+}

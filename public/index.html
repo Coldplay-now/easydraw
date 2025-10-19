@@ -11,21 +11,11 @@
         <img src="/assets/hero-image.png" alt="美国风格漫画生成器" class="hero-image">
         <h1>美国风格漫画生成器</h1>
         
-        <!-- 模式选择 -->
-        <div class="form-group">
-            <label>生成模式：</label>
-            <div class="radio-group">
-                <label class="radio-label">
-                    <input type="radio" name="mode" value="single" checked>
-                    单图生成
-                </label>
-                <label class="radio-label">
-                    <input type="radio" name="mode" value="batch">
-                    JSON脚本批量生成
-                </label>
-            </div>
+        <!-- 导航链接 -->
+        <div class="navigation">
+            <a href="script-generator.html" class="nav-link">📝 分镜头脚本生成器</a>
         </div>
-
+        
         <!-- 单图生成模式 -->
         <div id="single-mode" class="mode-section">
             <div class="form-group">
@@ -54,31 +44,77 @@
             </div>
         </div>
 
-        <div class="form-group">
-            <label>图片尺寸：</label>
-            <div class="radio-group">
-                <label class="radio-label">
-                    <input type="radio" name="size" value="2304x1728" checked>
-                    横版 4:3 (2304x1728)
-                </label>
-                <label class="radio-label">
-                    <input type="radio" name="size" value="1728x2304">
-                    竖版 3:4 (1728x2304)
-                </label>
+        <!-- 配置选项分组 -->
+        <div class="config-group">
+            <!-- 模式选择 -->
+            <div class="form-group">
+                <label>生成模式：</label>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="mode" value="single" checked>
+                        单图生成
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="mode" value="batch">
+                        基于脚本批量生成
+                    </label>
+                </div>
             </div>
-        </div>
 
-        <div class="form-group">
-            <label for="style-select">漫画风格：</label>
-            <select id="style-select" name="style">
-                <option value="comic_american">美式漫画风格</option>
-                <option value="comic_japanese">日式漫画风格</option>
-                <option value="comic_european">欧式漫画风格</option>
-                <option value="comic_cyberpunk">赛博朋克风格</option>
-                <option value="comic_fantasy">奇幻风格</option>
-                <option value="comic_moebius">莫比斯风格</option>
-                <option value="comic_custom">自定义风格</option>
-            </select>
+            <div class="form-group">
+                <label>图片尺寸：</label>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="size" value="2304x1728" checked>
+                        横版 4:3 (2304x1728)
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="size" value="1728x2304">
+                        竖版 3:4 (1728x2304)
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>漫画风格：</label>
+                <div class="style-cards" id="style-cards">
+                    <div class="style-card" data-value="comic_american">
+                        <div class="style-icon">🇺🇸</div>
+                        <div class="style-name">美式漫画</div>
+                    </div>
+                    <div class="style-card" data-value="comic_japanese">
+                        <div class="style-icon">🇯🇵</div>
+                        <div class="style-name">日式漫画</div>
+                    </div>
+                    <div class="style-card" data-value="comic_european">
+                        <div class="style-icon">🇪🇺</div>
+                        <div class="style-name">欧式漫画</div>
+                    </div>
+                    <div class="style-card" data-value="comic_cyberpunk">
+                        <div class="style-icon">🔋</div>
+                        <div class="style-name">赛博朋克</div>
+                    </div>
+                    <div class="style-card" data-value="comic_fantasy">
+                        <div class="style-icon">🧙</div>
+                        <div class="style-name">奇幻风格</div>
+                    </div>
+                    <div class="style-card" data-value="comic_moebius">
+                        <div class="style-icon">🌌</div>
+                        <div class="style-name">莫比斯风格</div>
+                    </div>
+                    <div class="style-card" data-value="comic_custom">
+                        <div class="style-icon">🎨</div>
+                        <div class="style-name">自定义风格</div>
+                    </div>
+                    <div class="style-card" data-value="comic_chinese">
+                        <div class="style-icon">🇨🇳</div>
+                        <div class="style-name">中国风格</div>
+                    </div>
+                </div>
+                <input type="hidden" id="style-select" name="style" value="comic_american">
+            </div>
+
+
         </div>
 
         <button id="generate-btn">生成图片</button>

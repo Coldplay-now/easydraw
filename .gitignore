@@ -18,10 +18,7 @@ pids
 *.pid.lock
 
 # 生成的文件和目录
-images/*.png
-images/*.jpg
-images/*.jpeg
-images/*.gif
+temp/                    # 临时生成的图片文件
 
 # 日志文件
 logs
